@@ -1,0 +1,12 @@
+# NOTE: answer bodies removed before publishing. The prompt asked the model to quote the
+# load-bearing line from two private craft files and reconcile them, so the raw answers
+# quoted internal rules verbatim. Published result = time + chars per line.
+
+--- FABLE-MOD effort=low    rc=0 time=18.998971252s chars=1189  [answer omitted]
+--- FABLE-MOD effort=medium  rc=0 time=19.451469555s chars=945   [answer omitted]
+--- FABLE-MOD effort=high   rc=0 time=22.275876391s chars=1158  [answer omitted]
+--- FABLE-MOD effort=xhigh  rc=0 time=29.251604637s chars=1095  [answer omitted]
+--- FABLE-MOD effort=max    rc=0 time=50.078895649s chars=1233  [answer omitted]
+--- VARIANCE-Q4 model=opus   time=8.367244181s  chars=139  [answer omitted]
+--- VARIANCE-Q4 model=fable  time=13.932691295s chars=149  [answer omitted]
+########## MODERATE SWEEP DONE ##########

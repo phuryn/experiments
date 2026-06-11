@@ -1,0 +1,41 @@
+########## EXPERIMENT A: Fable effort sweep (generic question, no repo access) ##########
+--- FABLE effort=low rc=0 time=10.448353993s chars=787
+- **Coordinator context is paid per layer.** Each intermediate agent re-reads the task framing, its children's outputs, and its own system prompt — tokens a flat fan-out never spends, since leaves report straight to one parent.
+
+- **Results get relayed, so the same content is tokenized multiple times.** A leaf's output passes through every nesting level on the way up, billed again at each hop (o
+
+--- FABLE effort=medium rc=0 time=12.839645553s chars=925
+- **Context duplication at every layer.** Each intermediate agent must carry enough of the parent's context to brief its children, so the same task background gets serialized into prompts twice (or more) — once parent→middle, once middle→leaf — instead of once per leaf in a flat fan-out.
+
+- **Middle agents pay full input-token costs just to relay.** An orchestrator-in-the-middle reads ever
+
+--- FABLE effort=high rc=0 time=11.763545558s chars=940
+- **Duplicated context at every layer.** Each intermediate agent must receive enough context to delegate its leaf tasks, and each leaf gets that context again — so the same instructions and background tokens are paid once per level instead of once total. A flat fan-out pays the context cost exactly once per leaf.
+
+- **Results get processed multiple times on the way back up.** A leaf's output is
+
+--- FABLE effort=xhigh rc=0 time=16.025430329s chars=926
+- **Every layer re-pays for the same tokens.** A mid-level agent must read its children's outputs into context, then re-emit a synthesis the top level reads again — so each leaf result is processed two or more times on the way up, versus exactly once in a flat fan-out.
+
+- **Intermediate agents carry full orchestration overhead with no leaf work to show for it.** Each nested coordinator pays for
+
+--- FABLE effort=max rc=0 time=48.450557066s chars=1052
+- **Every hop re-bills the same content.** A nested intermediate must ingest its children's results as input tokens, then re-emit a summary upward as output tokens — so each leaf result is paid for once per layer it passes through. In a flat fan-out, each result is produced once and read once, by the single orchestrator.
+
+- **Each intermediate is a full agent paying fixed overhead.** Every mid-l
+
+########## EXPERIMENT B: Opus vs Fable, 5 repo questions ##########
+# Answer bodies removed: these five questions read Pawel's private repo files, so the raw
+# answers quoted internal structure (rules, paywall placement, the lens index, tool docs).
+# Published result = time + chars per answer below; the questions are in the scripts.
+--- Q1 model=opus  rc=0 time=4.608730966s  chars=145  [answer omitted]
+--- Q1 model=fable rc=0 time=6.551457428s  chars=158  [answer omitted]
+--- Q2 model=opus  rc=0 time=9.010067145s  chars=293  [answer omitted]
+--- Q2 model=fable rc=0 time=14.882451216s chars=247  [answer omitted]
+--- Q3 model=opus  rc=0 time=10.553722408s chars=40   [answer omitted]
+--- Q3 model=fable rc=0 time=11.369814979s chars=36   [answer omitted]
+--- Q4 model=opus  rc=0 time=7.134161817s  chars=120  [answer omitted]
+--- Q4 model=fable rc=0 time=20.212239817s chars=125  [answer omitted]
+--- Q5 model=opus  rc=0 time=6.927929823s  chars=2    [answer omitted]
+--- Q5 model=fable rc=0 time=10.415559320s chars=24   [answer omitted]
+########## DONE ##########

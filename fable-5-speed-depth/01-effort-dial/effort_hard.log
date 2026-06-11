@@ -1,0 +1,60 @@
+--- FABLE-HARD effort=low rc=0 time=12.333502560s chars=631
+≡ 1 mod 8, n ≡ 1 mod 125 → n ≡ 1
+- n ≡ 0 mod 8, n ≡ 1 mod 125 → n ≡ 376
+- n ≡ 1 mod 8, n ≡ 0 mod 125 → n ≡ 625
+
+Excluding 0 (not a positive integer), the positive n < 1000 are:
+
+- **1** → 1² = 1, ends in 001 ✓
+- **376** → 376² = 141,376 ✓
+- **625** → 625² = 390,625 ✓
+
+**Answer: 3 values — n = 1, 376, 625.**
+
+
+--- FABLE-HARD effort=medium rc=0 time=11.729337627s chars=590
+000:
+
+- n ≡ 0 (mod 8), 0 (mod 125) → n = 0 (excluded, not positive)
+- n ≡ 1 (mod 8), 1 (mod 125) → n = 1 (1² = 1 → "001" ends in "001" ✓)
+- n ≡ 0 (mod 8), 1 (mod 125) → n = 376 (376² = 141,**376** ✓)
+- n ≡ 1 (mod 8), 0 (mod 125) → n = 625 (625² = 390,**625** ✓)
+
+So there are **3** such positive integers: **1, 376, 625**.
+
+
+--- FABLE-HARD effort=high rc=0 time=16.926985815s chars=749
+ (1 mod 8, 0 mod 125) → n ≡ 625
+
+**Check:**
+- 1² = 1 → ends in 001 = padded n ✓
+- 376² = 141,376 → ends in 376 ✓
+- 625² = 390,625 → ends in 625 ✓
+- 0 is excluded since n must be positive.
+
+(No smaller numbers sneak in: e.g. 5² = 25 ends in 025 ≠ 005, 76² = 5776 ends in 776 ≠ 076.)
+
+**Answer: 3 values — n = 1, 376, 625.**
+
+
+--- FABLE-HARD effort=xhigh rc=0 time=18.190592288s chars=774
+0 | 1 | 376 |
+| 1 | 0 | 625 |
+
+Checks: 376² = 141**376** ✓, 625² = 390**625** ✓, and 1² = 1 ends in 001, matching zero-padded 001 ✓. n = 0 is excluded since we need positive integers, leaving **{1, 376, 625} — 3 values**. (376 and 625 are the classic "automorphic" numbers; note they sum to 1001 ≡ 1 mod 1000, as idempotent pairs must.)
+
+
+--- FABLE-HARD effort=max rc=0 time=34.155831138s chars=1020
+mod 8 gives k = 5.)
+
+Excluding 0 (not a positive integer), the solutions with 1 ≤ n ≤ 999 are **1, 376, 625**.
+
+**Check:**
+- 1² = 1 → "001" matches "001" ✓
+- 376² = 141**376** ✓
+- 625² = 390**625** ✓
+
+(These are the 3-digit automorphic numbers. Near-misses like 25² = 625 or 76² = 5776 fail because 625 ≠ "025" and 776 ≠ "076".)
+
+
+########## HARD SWEEP DONE ##########

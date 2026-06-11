@@ -1,0 +1,18 @@
+# NOTE: model answer bodies removed before publishing. The prompts asked the model to
+# read Pawel's private knowledge-layer files (the craft/ rule set) and quote the
+# load-bearing lines, so the raw answers reproduced internal rules verbatim. The
+# published result is the timing and output length (chars) per line below — that is all
+# experiment 02 and guide Section 1.1 rely on. The prompts themselves are in the scripts.
+
+########## OPUS EFFORT SWEEP (realistic task: reconcile an apparent contradiction across two craft files) ##########
+--- OPUS-MOD effort=low    rc=0 time=19.403970759s chars=1075  [answer omitted]
+--- OPUS-MOD effort=medium  rc=0 time=21.747258960s chars=1068  [answer omitted]
+--- OPUS-MOD effort=high   rc=0 time=21.693038177s chars=1035  [answer omitted]
+--- OPUS-MOD effort=xhigh  rc=0 time=32.631251196s chars=1356  [answer omitted]
+--- OPUS-MOD effort=max    rc=0 time=64.006138246s chars=1192  [answer omitted]
+
+########## LONG-HORIZON HEAD-TO-HEAD (multi-file judgment audit) ##########
+--- AUDIT model=opus   rc=0 time=59.202004455s chars=3094  [answer omitted: contradictions found across three private craft files]
+--- AUDIT model=fable  rc=0 time=62.813910389s chars=4149  [answer omitted: same task; Fable returned ~34% more findings text in about the same wall time]
+
+########## RESIDUALS DONE ##########
