@@ -1,0 +1,3 @@
+const {execFile}=require('child_process');
+const run=()=>new Promise((res,rej)=>execFile('claude',['-p','Output exactly one line: L3 LEAF: <10-word tip for PMs using Claude Fable 5>','--model','claude-haiku-4-5-20251001','--allowedTools','Bash'],{timeout:600000,stdio:['ignore','pipe','pipe']},(e,o)=>e?rej(e):res(o.trim().split('\n').find(l=>l.startsWith('L3 LEAF:'))||o.trim().split('\n')[0])));
+Promise.all([run(),run()]).then(([a,b])=>{console.log('L3 OK: '+a);console.log('L3 OK: '+b)}).catch(e=>{console.error(e.message);process.exit(1)});

@@ -1,0 +1,3 @@
+ts,run_id,lane,model,round,rc,seconds,in_tok,out_tok,cache_w,cache_r,cost_usd,chars
+2026-06-12T09:15:54,s07-opus-r00,0,opus,0,0,263.686,6395,20922,49294,69416,1.082673,10707
+2026-06-12T09:21:32,s07-fable-r00,0,fable,0,0,337.74,7227,26129,65830,98681,2.7940009999999997,13201

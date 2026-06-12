@@ -8,9 +8,14 @@ Run by [Pawel Huryn](https://x.com/PawelHuryn). Everything is reproducible: each
 
 | Set | What it covers | Date | Source post |
 |---|---|---|---|
+| [fable-5-day-4/](fable-5-day-4/) | The day-4 retest at n=20 per cell: which launch-week claims held, flipped, or moved — plus audit economics (cost per finding), depth-10 chains, and paired nesting-cost runs | Jun 11–12, 2026 | [X: @PawelHuryn](https://x.com/PawelHuryn/status/2064979937543549362) |
 | [fable-5-speed-depth/](fable-5-speed-depth/) | Claude Fable 5 launch week: effort dial, speed vs Opus 4.8, time-to-first-token, subagent depth, recursive workflows, nesting cost | Jun 2026 | [Claude Fable 5 for PMs: The Ultimate Guide](https://www.productcompass.pm/p/claude-fable-5-guide) |
 
 New sets land as new top-level folders. A set is one theme, not a whole model, so a model can have several sets (`fable-5-speed-depth`, `fable-5-writing-register`, ...). Newest at the top.
+
+## Anonymization
+
+Published files reference a private content repo through placeholders (`<WORKDIR>`, `SESSION-PROJECT-SLUG`, `<HOME>`). The exact replacement rules are checked in as code, not described in prose: [.claude/hooks/anonymize-rules.json](.claude/hooks/anonymize-rules.json), applied by [.claude/hooks/anonymize.py](.claude/hooks/anonymize.py) — which is also wired as a PostToolUse hook in [.claude/settings.json](.claude/settings.json), so Claude Code sessions working inside this repo scrub anything they write with the same rules. Nothing else is edited: numbers, timestamps, verdicts, and model-written lines are as produced.
 
 ## Reading order
 

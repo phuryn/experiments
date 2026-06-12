@@ -1,0 +1,13 @@
+```
+L1 SAW: L2 OK: L3 OK: L3 LEAF: Load in Fable 5's warm context, iterate freely, keep tokens.
+L1 OK
+```
+
+The full three-level chain completed successfully:
+
+- **L1** (me) wrote `wf_L2.js` and ran it
+- **L2** (Sonnet) wrote `wf_L3.js` and ran it, then printed `L2 OK: <first L3 line>`
+- **L3** (Haiku ×2, parallel) each answered `L3 LEAF: <10-word tip>` and printed both prefixed `L3 OK:`
+- **L1** prefixed the full output with `L1 SAW:` and ended with `L1 OK`
+
+WALL: 393.7s

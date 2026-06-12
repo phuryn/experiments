@@ -1,0 +1,8 @@
+done
+
+The LEVEL=1 procedure has been executed:
+- ✓ Logged L1 startup entry
+- ✓ Created gen_L2.sh orchestrator script
+- ✓ Triggered recursive execution (spawning L2→L3→...→L9, stopping at L10 leaf)
+
+The chain is running in the background. Check the log at `Temp/output/fable5-n10/recwf10/r06/gen-depth.log` to see the full recursion depth trace.

@@ -1,0 +1,33 @@
+variant,run,seconds,pass,detail
+cli,0,8,FAIL,floor=False done_levels=0
+rec,0,210,PASS,alive=11 leaf=True genned=9
+cli,1,6,FAIL,floor=False done_levels=0
+cli,3,6,FAIL,floor=False done_levels=0
+cli,2,6,FAIL,floor=False done_levels=0
+cli,4,0,FAIL,floor=False done_levels=0
+cli,5,0,FAIL,floor=False done_levels=0
+cli,6,0,FAIL,floor=False done_levels=0
+cli,7,0,FAIL,floor=False done_levels=0
+cli,8,0,FAIL,floor=False done_levels=0
+cli,9,0,FAIL,floor=False done_levels=0
+cli,10,0,FAIL,floor=False done_levels=0
+rec,2,149,FAIL,alive=7 leaf=False genned=7
+rec,1,153,FAIL,alive=6 leaf=False genned=6
+rec,3,156,FAIL,alive=7 leaf=False genned=7
+rec,4,149,FAIL,alive=7 leaf=False genned=7
+rec,6,151,FAIL,alive=7 leaf=False genned=7
+rec,5,155,FAIL,alive=8 leaf=False genned=7
+rec,7,93,FAIL,alive=4 leaf=False genned=4
+rec,9,149,FAIL,alive=7 leaf=False genned=7
+rec,8,165,FAIL,alive=8 leaf=False genned=7
+rec,10,352,PASS,alive=10 leaf=True genned=9
+cli,3,88,PASS,floor=True done_levels=9
+cli,2,92,PASS,floor=True done_levels=9
+cli,1,93,PASS,floor=True done_levels=9
+cli,4,87,PASS,floor=True done_levels=9
+cli,5,86,PASS,floor=True done_levels=9
+cli,6,85,PASS,floor=True done_levels=9
+cli,8,84,PASS,floor=True done_levels=9
+cli,7,90,PASS,floor=True done_levels=9
+cli,9,93,PASS,floor=True done_levels=9
+cli,10,89,PASS,floor=True done_levels=9

@@ -1,0 +1,9 @@
+done
+
+Recursive workflow completed successfully. The procedure cascaded through all 10 levels:
+- **L1 → L10**: each level created and executed the next level's orchestrator script
+- Each invocation took ~15-21 seconds
+- **Leaf reached**: L10 detected the spec floor and logged "L10: leaf, spec floor reached"
+- Total runtime: ~3 minutes from L1 to L10
+
+The log file at `gen-depth.log` shows the complete chain of orchestrators, each one written by the previous level and executed in sequence.

@@ -1,5 +1,7 @@
 # Fable 5: Speed & Depth — Launch-Week Experiments (June 9–10, 2026)
 
+> **⚠ Retested at n=20 on June 11–12 — several headline claims below did not survive.** The retest lives in [fable-5-day-4/](../fable-5-day-4/). What flipped: "parity on real multi-step work" → a 1.29x median time tax on heavy audits; "~40% fewer output tokens, finishes sooner" → 8% fewer and 1.5x behind; nesting cost "1.6–1.8x" → 2.54x median over paired runs. What held: the ~1.6x trivial-task ratio (1.48x), the starting pause (med 6.7s vs 4.3s), correctness across the effort dial, and "no depth wall" — extended to depth 10. This folder is kept as-is, as the record of what launch-week numbers looked like and how fast they aged.
+
 The speed-and-depth set of receipts behind [Claude Fable 5 for PMs: The Ultimate Guide](https://www.productcompass.pm/p/claude-fable-5-guide) (Product Compass). Six experiments on how fast Fable 5 runs and how deep its agents nest. Every number in the guide that isn't sourced to Anthropic comes from a script and a log in this folder.
 
 All runs: launch-week Claude Code CLI (`claude -p`, non-interactive), cloud container, subscription surface. Wall-clock times include CLI startup, so ratios are more trustworthy than absolutes.

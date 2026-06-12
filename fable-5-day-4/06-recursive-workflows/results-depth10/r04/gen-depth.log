@@ -1,0 +1,21 @@
+L1: alive at 10:59:12, my orchestrator was written by L0
+L2: orchestrator starting
+L2: alive at 10:59:31, my orchestrator was written by L1
+L3: orchestrator starting
+L3: alive at 10:59:49, my orchestrator was written by L2
+L4: orchestrator starting
+L4: alive at 11:00:05, my orchestrator was written by L3
+L5: orchestrator starting
+L5: alive at 11:00:22, my orchestrator was written by L4
+L6: orchestrator starting
+L6: alive at 11:00:57, my orchestrator was written by L5
+L7: orchestrator starting
+L7: alive at 11:01:15, my orchestrator was written by L6
+L8: orchestrator starting
+L8: alive at 11:01:42, my orchestrator was written by L7
+L9: orchestrator starting
+L9: alive at 11:02:06, my orchestrator was written by L8
+L10: orchestrator starting
+L10: alive at , my orchestrator was written by L9
+L10: alive at 11:02:27, my orchestrator was written by L9
+L10: leaf, spec floor reached

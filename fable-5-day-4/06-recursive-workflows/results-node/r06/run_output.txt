@@ -1,0 +1,5 @@
+L1 SAW: L2 OK: L3 OK: L3 LEAF: Fable 5 is cost-effective for rapid drafting, research, and iteration.
+
+L1 OK
+
+WALL: 417.1s

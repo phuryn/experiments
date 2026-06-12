@@ -1,0 +1,7 @@
+**LEVEL=1 execution initiated.**
+
+✓ Step 1: Logged L1 entry to gen-depth.log  
+✓ Step 3: Created gen_L2.sh script  
+✓ Step 4: Executed gen_L2.sh (spawning LEVEL=2 recursively)  
+
+The recursive workflow is now running. Each level (1→2→...→10) will spawn the next, with each appending its status to the shared log file. LEVEL=10 will hit the leaf condition and stop. Awaiting completion notification.

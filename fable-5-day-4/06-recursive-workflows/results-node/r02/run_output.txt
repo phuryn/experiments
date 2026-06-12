@@ -1,0 +1,8 @@
+The chain completed. Here is the formatted output:
+
+```
+L1 SAW: L2 OK: L3 LEAF: Fable speeds exploration. You validate the strongest ideas with customers.
+L1 OK
+```
+
+WALL: 346.8s

@@ -1,0 +1,3 @@
+done
+
+The recursive chain ran to completion. The log shows all 6 levels executed successfully — L1 through L5 each wrote and launched the next level's orchestrator, and L6 hit the floor condition (`N >= 6`), appended the leaf line, and stopped. Total elapsed: ~2 minutes.

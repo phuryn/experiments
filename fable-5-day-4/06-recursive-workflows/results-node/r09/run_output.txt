@@ -1,0 +1,7 @@
+The chain completed. Here is the full output, prefixed per spec:
+
+**L1 SAW:** L2 OK: L3 OK: L3 LEAF: Fable 5 powers fast iteration; Opus owns the hard calls.
+
+L1 OK
+
+WALL: 372.3s

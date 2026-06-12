@@ -1,0 +1,22 @@
+[
+  {
+    "comment": "Windows path to the private content repo the experiments ran against (any drive, any username, single or doubled separators)",
+    "pattern": "[A-Za-z]:[\\\\/]+Users[\\\\/]+[^\\\\/\"']+[\\\\/]+Desktop[\\\\/]+Workspace[\\\\/]+Editor",
+    "replace": "<WORKDIR>"
+  },
+  {
+    "comment": "Git-Bash form of the same path",
+    "pattern": "/[a-z]/Users/[^/\"']+/Desktop/Workspace/Editor",
+    "replace": "<WORKDIR>"
+  },
+  {
+    "comment": "Claude Code session-log folder slug for that checkout (~/.claude/projects/<slug>)",
+    "pattern": "[A-Za-z]--Users-[^-\"' ]+-Desktop-Workspace-Editor",
+    "replace": "SESSION-PROJECT-SLUG"
+  },
+  {
+    "comment": "Fallback: any other path under a user home directory keeps only its tail",
+    "pattern": "[A-Za-z]:[\\\\/]+Users[\\\\/]+[^\\\\/\"' ]+(?=[\\\\/])",
+    "replace": "<HOME>"
+  }
+]

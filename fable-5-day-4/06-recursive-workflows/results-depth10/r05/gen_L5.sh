@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "L5: orchestrator starting" >> "<WORKDIR>/Temp/output/fable5-n10/recwf10/r05/gen-depth.log"
+claude -p "Read <WORKDIR>/Temp/output/fable5-n10/recwf10/r05/gen_spec.md and execute the procedure with LEVEL=5" --model haiku --allowedTools "Bash,Write,Read" --permission-mode acceptEdits < /dev/null
