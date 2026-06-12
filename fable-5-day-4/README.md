@@ -23,7 +23,7 @@ The launch-week numbers in [fable-5-speed-depth/](../fable-5-speed-depth/) were 
 | TTFT: "starts ~3s later" | 2.4s later (med 6.7s vs 4.3s) — held |
 | Depth: "6 levels, no wall" | extended to **10 levels, still no wall**, both for CLI chains and recursive self-authoring workflows |
 
-The meta-finding: **day-one benchmarks age in days.** The build is tuned daily; absolute numbers rot, ratios travel better, and even ratios deserve a retest.
+The meta-finding: **day-one benchmarks age in days.** Absolute numbers rot, ratios travel better, and even ratios deserve a retest. Why both models' token counts moved between builds, I don't know — launch-week effort config is one possible confound.
 
 ## Method notes & caveats
 
