@@ -1,0 +1,4 @@
+model,low_tier,low_caught_/210,low_recall,ceiling_tier,ceiling_caught_/210,ceiling_recall,delta_pts,mean_reasoning_tokens_low,mean_reasoning_tokens_ceiling,token_multiplier
+Opus 4.8,high,26,12.4%,max,51,24.3%,+11.9,22956,56816,2.5x
+GPT-5.5,high,41,19.5%,xhigh,66,31.4%,+11.9,12678,27197,2.1x
+GLM-5.2,high,37,17.6%,Max,34,16.2%,-1.4,16276,17685,1.1x
