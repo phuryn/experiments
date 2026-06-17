@@ -8,7 +8,7 @@ Run by [Pawel Huryn](https://x.com/PawelHuryn). Everything is reproducible: each
 
 | Set | What it covers | Date | Source post |
 |---|---|---|---|
-| [frontier-vs-open-audit/](frontier-vs-open-audit/) | An open-weights model (GLM-5.2) vs the closed frontier (Opus 4.8, GPT-5.5) on a real code audit: 21 hand-planted bugs, two reasoning-effort tiers x 10 read-only runs per model (60 audits), blind-graded planted-bug recall — plus the high-vs-max effort response (a lever on the closed models, a no-op on the open one) | Jun 2026 | _(on publish)_ |
+| [frontier-vs-open-audit/](frontier-vs-open-audit/) | An open-weights model (GLM-5.2) vs the closed frontier (Opus 4.8, GPT-5.5) on a real code audit: 21 hand-planted bugs, two reasoning-effort tiers x 10 read-only runs per model (60 audits), blind-graded planted-bug recall — plus the high-vs-max effort response (a lever on the closed models, a no-op on the open one) | Jun 2026 | [X: @PawelHuryn](https://x.com/PawelHuryn/status/2067324156174065677) |
 | [fable-5-day-4/](fable-5-day-4/) | The day-4 retest at n=20 per cell: which launch-week claims held, flipped, or moved — plus audit economics (cost per finding), depth-10 chains, and paired nesting-cost runs | Jun 11–12, 2026 | [X: @PawelHuryn](https://x.com/PawelHuryn/status/2064979937543549362) |
 | [fable-5-speed-depth/](fable-5-speed-depth/) | Claude Fable 5 launch week: effort dial, speed vs Opus 4.8, time-to-first-token, subagent depth, recursive workflows, nesting cost | Jun 2026 | [Claude Fable 5 for PMs: The Ultimate Guide](https://www.productcompass.pm/p/claude-fable-5-guide) |
 

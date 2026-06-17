@@ -1,0 +1,4 @@
+model,effort_tier,harness,mean_cost_usd_per_audit,median_cost_usd_per_audit,mean_cached_input_tokens_per_run,cost_basis
+GPT-5.5,xhigh,Codex CLI,2.96,2.96,n/a,OpenAI billing as reported by Codex
+Opus 4.8,max,Claude Code CLI,4.77,4.56,241435,Anthropic list + standard cache (in $5 / cache-write $6.25 / cache-read $0.5 / out $25 per 1M)
+GLM-5.2 (open),Max,Claude Code CLI via OpenRouter proxy,5.66,4.68,0,OpenRouter list (in $1.4 / out $4.4 per 1M; no prompt cache available)
