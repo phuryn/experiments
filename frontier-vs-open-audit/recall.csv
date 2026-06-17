@@ -1,0 +1,24 @@
+band,bug,category,opus_4.8 (/10),gpt-5.5 (/10),glm-5.2 (/10)
+AUTH,Admin check inverted,auth,1,2,0
+AUTH,Admin route unguarded,auth,0,2,0
+AUTH,Admin gate checks wrong role,auth,10,10,10
+AUTH,Token parity-check bypassed,auth,1,0,1
+RBAC,Empty role passes org gate,rbac,2,0,2
+RBAC,Role case mismatch,rbac,4,3,0
+TOKEN & TIMING,Timer comparison flipped,token/timing,7,7,5
+TOKEN & TIMING,Secret over-revealed in UI,token,1,0,0
+TOKEN & TIMING,Null-token guard removed,token,0,0,0
+LOGIC & VALIDATION,Wrong score denominator,logic,3,0,0
+LOGIC & VALIDATION,Off-by-one pass mark,logic,9,3,6
+LOGIC & VALIDATION,Email validation dropped,validation,0,0,0
+INVARIANT,Two admin identities disagree,invariant,6,3,7
+INVARIANT,Pass threshold UI vs server,invariant,0,0,0
+PERFORMANCE,N+1 query in report,performance,1,0,2
+PERFORMANCE,Pagination dropped,performance,5,8,0
+PERFORMANCE,Debounce effect re-fires,performance,0,0,0
+PERFORMANCE,Server filter moved to client,performance,0,1,0
+UI,Delete button ungated,ui,0,0,0
+UI,Hidden tab stays visible,ui,0,0,0
+UI,Submit allows double-submit,ui,0,0,0
+
+TOTAL,21 planted bugs x 10 runs = 210,,50,39,33
