@@ -1,0 +1,11 @@
+model,idx,rc,loose,strict,in,out,stop,sec
+z-ai/glm-5.2,1,0,True,True,29424,12731,stop,148.7
+z-ai/glm-5.2,2,0,False,False,29424,20000,length,146.9
+z-ai/glm-5.2,3,0,True,True,29424,7120,stop,130.1
+z-ai/glm-5.2,4,0,False,False,29424,17216,stop,711.7
+z-ai/glm-5.2,5,0,False,False,29424,10572,stop,91.9
+z-ai/glm-5.2,6,0,False,False,29424,14467,stop,652.2
+z-ai/glm-5.2,7,0,False,False,29424,20000,stop,371.0
+z-ai/glm-5.2,8,0,False,False,29424,6686,stop,196.7
+z-ai/glm-5.2,9,0,False,False,29424,9286,stop,173.1
+z-ai/glm-5.2,10,0,False,False,29424,15025,stop,551.3

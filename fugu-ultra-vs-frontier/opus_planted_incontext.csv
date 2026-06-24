@@ -1,0 +1,11 @@
+model,idx,rc,loose,strict,in,out,stop,sec
+claude-opus-4-8,1,0,False,False,45064,11225,end_turn,130.5
+claude-opus-4-8,2,0,False,False,45064,11042,end_turn,126.7
+claude-opus-4-8,3,0,False,False,45064,10011,end_turn,117.2
+claude-opus-4-8,4,0,False,False,45064,9364,end_turn,108.4
+claude-opus-4-8,5,0,True,True,45064,11722,end_turn,140.9
+claude-opus-4-8,6,0,False,False,45064,11477,end_turn,136.8
+claude-opus-4-8,7,0,False,False,45064,9507,end_turn,110.8
+claude-opus-4-8,8,0,False,False,45064,13668,end_turn,168.6
+claude-opus-4-8,9,0,False,False,45064,13636,end_turn,162.4
+claude-opus-4-8,10,0,True,True,45064,10597,end_turn,126.7

@@ -1,0 +1,17 @@
+problem,i,rc,correct,prompt,completion,reasoning,finish,sec
+P1,1,0,True,59,958,512,stop,16.4
+P1,2,0,True,59,962,512,stop,15.1
+P1,3,0,True,59,1121,512,stop,16.0
+P1,4,0,True,59,1168,762,stop,19.6
+P1,5,0,True,59,974,512,stop,15.8
+P1,6,0,True,59,1024,512,stop,16.8
+P1,7,0,True,59,1249,512,stop,18.2
+P1,8,0,True,59,889,512,stop,13.8
+P2,1,0,True,40,276,74,stop,4.1
+P2,2,0,True,40,291,100,stop,4.7
+P2,3,0,True,40,268,79,stop,4.1
+P2,4,0,True,40,273,82,stop,4.1
+P2,5,0,True,40,266,74,stop,4.4
+P2,6,0,True,40,285,87,stop,4.6
+P2,7,0,True,40,283,80,stop,4.2
+P2,8,0,True,40,313,121,stop,4.5

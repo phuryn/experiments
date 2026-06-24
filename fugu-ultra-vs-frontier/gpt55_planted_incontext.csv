@@ -1,0 +1,11 @@
+idx,rc,loose,strict,prompt,completion,finish,sec
+1,0,True,True,29163,11362,stop,182.6
+2,0,True,True,29163,12370,stop,193.5
+3,0,False,False,29163,9335,stop,141.7
+4,0,False,False,29163,10169,stop,159.1
+5,0,True,False,29163,13301,stop,204.5
+6,0,True,True,29163,11310,stop,178.8
+7,0,True,True,29163,14135,stop,220.4
+8,0,False,False,29163,10448,stop,166.6
+9,0,True,True,29163,11622,stop,176.6
+10,0,True,False,29163,10727,stop,171.5

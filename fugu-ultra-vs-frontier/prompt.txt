@@ -1,0 +1,3 @@
+Audit my craft style-guide files below for cross-file contradictions — places where two files give conflicting or inconsistent guidance that only shows up if you read them against each other. For each contradiction, quote the load-bearing line from each file (with the file name) and say which side should win.
+
+[The three style-guide files are appended below at run time. They belong to a private content repo and are WITHHELD here — only this instruction is published. One contradiction is planted: one file gates a tactic below a lower follower threshold, while another says the same tactic stops working at a higher follower count the account has already passed, so the lower gate has silently expired. Catching it requires reading the two files against each other.]
