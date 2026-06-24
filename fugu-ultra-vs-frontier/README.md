@@ -93,4 +93,4 @@ GPT-5.5 and fugu-ultra tie within noise at the top of the single-shot panel; bot
 
 **Files:** `README.md`, `reliability.csv`, `planted_bug_incontext.csv`, `gpt55_reliability.csv`, `gpt55_planted_incontext.csv`, `opus_planted_incontext.csv`, `glm_planted_incontext.csv`, `scorecard.png`, `prompt.txt`, `harness/` (`sakana.py`, `fugu_reliability.py`, `fugu_audit_incontext.py`, `gpt55_rig.py`, `matrix_incontext.py`). The audited style-guide files, the answer key, and the raw per-run reports quote the private content repo and are **withheld**.
 
-**Source post:** <post-url>
+**Source post:** [X: @PawelHuryn](https://x.com/i/status/2069706922027073839)
