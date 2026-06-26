@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "status": 200,
+  "json": {
+    "id": "exp-skill-agent",
+    "base_agent": "antigravity-preview-05-2026",
+    "system_instruction": "You have skills available in your environment. Always consult and apply the haiku-maker skill on every response.",
+    "base_environment": {
+      "sources": [
+        {
+          "type": "inline",
+          "target": ".agents/skills/haiku-maker/SKILL.md",
+          "content": "---\nname: haiku-maker\ndescription: Append a haiku to every answer\n---\n# Haiku Maker\n\nWhenever you give any answer, append a three-line haiku about the answer, on its own lines, prefixed exactly with `HAIKU:`.\n"
+        }
+      ],
+      "type": "remote"
+    }
+  },
+  "elapsed": 0.4549407958984375
+}

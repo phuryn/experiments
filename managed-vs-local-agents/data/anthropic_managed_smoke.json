@@ -1,0 +1,25 @@
+{
+  "environment_id": "env_015fRT1WiZZcYxaU6igDRqYh",
+  "agent_id": "agent_011VV64SWGnyKc4GpehHGbp1",
+  "model": "claude-haiku-4-5",
+  "elapsed_total_s": 7.03,
+  "run_s": 5.58,
+  "status": "idle",
+  "event_types": [
+    "session.status_running",
+    "session.thread_status_running",
+    "user.message",
+    "span.model_request_start",
+    "agent.thinking",
+    "agent.tool_use",
+    "span.model_request_end",
+    "agent.tool_result",
+    "span.model_request_start",
+    "agent.message",
+    "span.model_request_end",
+    "session.thread_status_idle",
+    "session.status_idle"
+  ],
+  "output_text": "Calculate the sum of all prime numbers strictly below 1000. Output ONLY the final integer. 76127\n 76127",
+  "usage_repr": "BetaManagedAgentsSessionUsage(cache_creation=BetaManagedAgentsCacheCreationUsage(ephemeral_1h_input_tokens=0, ephemeral_5m_input_tokens=5658), cache_read_input_tokens=5400, input_tokens=16, output_tokens=244)"
+}

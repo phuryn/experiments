@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "status": 400,
+  "error": "{\"error\":{\"message\":\"The value 'mcp_server' is not supported for 'type' at 'tools[3]'. Supported values: 'google_search', 'url_context', 'code_execution'.\",\"code\":\"invalid_request\"}}",
+  "elapsed": 0.12476563453674316
+}

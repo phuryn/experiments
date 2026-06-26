@@ -1,0 +1,22 @@
+[
+  {
+    "primitive": "Custom SKILL.md",
+    "result": "PASS",
+    "detail": "answer=True, skill_applied(HAIKU)=True; output='6 multiplied by 7 is 42.\n\nHAIKU:\nSix and seven meet\nForty-two is their product\nNumbers are aligned'"
+  },
+  {
+    "primitive": "Secrets via egress proxy",
+    "result": "FAIL-run",
+    "detail": "run None: TimeoutError: The read operation timed out"
+  },
+  {
+    "primitive": "tools[] incl. mcp_server (dev endpoint)",
+    "result": "REJECTED",
+    "detail": "dev endpoint 400: {\"error\":{\"message\":\"The value 'mcp_server' is not supported for 'type' at 'tools[3]'. Supported values: 'google_search', 'url_context', 'code_execution'.\",\"code\":\"invalid_request\"}} (may be Enterprise/Vertex-only)"
+  },
+  {
+    "primitive": "Subagents",
+    "result": "NOT-EXPOSED",
+    "detail": "step types observed: ['code_execution_call', 'code_execution_result', 'model_output', 'thought']; no sub-agent/agent-spawn step type present"
+  }
+]

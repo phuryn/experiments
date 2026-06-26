@@ -1,0 +1,12 @@
+[
+  {
+    "path": "Google: agent reads/runs local .py + .md",
+    "result": "PASS",
+    "detail": "read_files=True, found_mul_bug=True, ran_code=True; steps=['code_execution_call', 'code_execution_result', 'function_call', 'function_result', 'model_output', 'thought']; out='I have reviewed the files in the workspace and executed the script to verify its behavior against the specification. Here is the report:\n\n### 1. Contents Found'"
+  },
+  {
+    "path": "Google: egress-proxy secret injection",
+    "result": "INCONCLUSIVE",
+    "detail": "network.allowlist+transform accepted at registration; egress header X-Secret-Probe present in httpbin echo=False; out='```json\n{\n  \"headers\": {\n    \"Accept\": \"*/*\", \n    \"Host\": \"httpbin.org\", \n    \"User-Agent\": \"curl/8.5.0\", \n    \"X-Amzn-Trace-Id\": \"Root=1-6a1dbd61-2fada49a41a09c252d355165\"\n  }\n}\n```'"
+  }
+]

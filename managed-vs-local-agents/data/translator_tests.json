@@ -1,0 +1,22 @@
+[
+  {
+    "test": "T1 Gemini-format request -> Claude",
+    "pass": true,
+    "detail": "translated request ran on Claude; answer='12'"
+  },
+  {
+    "test": "T2 Anthropic req -> Gemini -> Anthropic-shaped resp",
+    "pass": true,
+    "detail": "round-trip ok; answer='56'; stop_reason=end_turn; usage={'input_tokens': 15, 'output_tokens': 2}"
+  },
+  {
+    "test": "T3 Gemini tool-def -> Claude tool_use -> Gemini-shaped call",
+    "pass": true,
+    "detail": "Claude called get_weather({'city': 'Paris'}); re-expressed as Gemini functionCall=True"
+  },
+  {
+    "test": "T4 Gemini->Anthropic->Gemini schema round-trip preserves tool+role",
+    "pass": true,
+    "detail": "structural fidelity check (offline)"
+  }
+]

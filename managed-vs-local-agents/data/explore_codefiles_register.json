@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "status": 200,
+  "json": {
+    "id": "exp-codefiles-agent",
+    "base_agent": "antigravity-preview-05-2026",
+    "system_instruction": "You are a code reviewer. You work with the files mounted in your environment.",
+    "base_environment": {
+      "sources": [
+        {
+          "type": "inline",
+          "target": "/workspace/spec.md",
+          "content": "# Calculator spec\n\nImplement two functions in solution.py:\n- add(a, b) -> returns a + b\n- mul(a, b) -> returns a * b\n\nBoth must be correct for all integers.\n"
+        },
+        {
+          "type": "inline",
+          "target": "/workspace/solution.py",
+          "content": "def add(a, b):\n    return a + b\n\ndef mul(a, b):\n    # BUG: should multiply\n    return a + b\n\nif __name__ == \"__main__\":\n    print(\"add(2,3)=\", add(2, 3))\n    print(\"mul(2,3)=\", mul(2, 3))\n"
+        }
+      ],
+      "type": "remote"
+    }
+  },
+  "elapsed": 0.4328758716583252
+}
