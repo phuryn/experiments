@@ -34,6 +34,8 @@ Per-answer means: Opus 8.5s (sd 5.7), Fable 11.8s (sd 3.8). Every one of the 50 
 3. **"It crawls on simple tasks" did not reproduce.** See experiment 03 for where the slow *feeling* comes from (a ~3s starting pause).
 4. Fable also had *lower* variance per answer than Opus (sd 3.8 vs 5.7) — steadier, not just slower.
 
+> **Update (June 11–12, 2026 — retested at n=20):** Finding 2 did not survive. The "parity on heavier work" read rested on a single audit pair (the 1.06x above); one lucky pair. Repeated as 10 strictly-paired heavy 3-file audits, the tax was a **1.32x median at n=10** [0.99–1.88] (one pair of ten hit parity at 0.99x), and **1.29x median at n=20** [0.92–1.70]. So the tax flattens as the task grows heavier, it does not vanish. The rest held: trivial-task ratio 1.48x, and every graded answer still correct. Full retest: [../../fable-5-day-4/02-repo-questions-and-audits-n20/](../../fable-5-day-4/02-repo-questions-and-audits-n20/).
+
 ## Caveats
 
 One surface, one container, launch week; wall-clock includes startup; heavier-task comparison is n=1 per model; both models may be retuned at any time.

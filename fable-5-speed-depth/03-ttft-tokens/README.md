@@ -29,4 +29,6 @@ On the easy prompt the gap is consistent and non-overlapping: Fable's first acti
 2. **Fable is terser, not slower, in flight:** ~40% fewer output tokens on the reasoning task and 5–9s faster end to end, with both models correct every round.
 3. Prompt caching is visible in the data: `input_tokens` drops from 2,222 (first run) to 2 (subsequent runs).
 
+> **Update (June 11–12, 2026 — retested at n=20):** Finding 2 flipped. The launch-day "~40% fewer tokens, finishes sooner" was 39% fewer (median 786 vs 1,288) off n=3 cells. At n=10 the reasoning-prompt gap shrank to **12.9% fewer** (median 2,112 vs 2,426), and Fable finished **1.49x behind**, not ahead — median 43.3s vs 29.0s, reversing the launch-day 5–9s lead. At n=20 the gap was **8%**, still ~1.5x behind. What moved most: **both models now write 2–3x more output tokens than these very logs, ~48h later** — the build was being tuned daily, so the token counts rot faster than the ratios. Finding 1 held: the starting pause is still there (med 6.7s vs 4.3s at n=20). Full retest: [../../fable-5-day-4/03-ttft-tokens-n20/](../../fable-5-day-4/03-ttft-tokens-n20/).
+
 **Caveat:** "first activity" includes the start of thinking, not just visible text; n=3; no-tool prompts only.
