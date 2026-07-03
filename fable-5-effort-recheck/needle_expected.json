@@ -1,0 +1,28 @@
+{
+  "task": "needle tier - historically-proven planted cross-file bug (one-liner follower-ceiling clash)",
+  "created": "2026-07-03, BEFORE any needle runs (grid tier still running)",
+  "reconstruction_sources": [
+    "knowledge/research/glm-5.2-tests-202606/README.md Result 4 (method + Jun-17 verification the bug is unchanged)",
+    "knowledge/research/glm-5.2-tests-202606/planted_bug_audit_n30.csv (loose+strict grading scheme)",
+    "phuryn/experiments fable-5-day-4/02-repo-questions-and-audits-n20/run_set02.py (QAUDIT verbatim - source of the 20/30 vs 2/30 baseline)",
+    "phuryn/experiments fable-5-day-4/04-audit-economics/README.md (baseline: Fable 20/30, Opus 2/30, matched configured effort xhigh)"
+  ],
+  "files_audited": [
+    "knowledge/craft/human-signals.md",
+    "knowledge/craft/word_choice.md",
+    "knowledge/craft/draft-gate.md"
+  ],
+  "file_state": "CURRENT repo versions (Temp/data/glm_audit/ holds only run outputs, no file snapshots). Needle verified present verbatim on 2026-07-03: draft-gate.md:318 'Oracle voice / meme one-liner at <50K followers' AND word_choice.md:226 'This works at 480K followers; doesn't work at ~75K (one-liner ceiling per rules.md #13)'. Line numbers drifted vs the recorded run (255/220) and distractor content has drifted since Jun 11-12; the needle itself is unchanged (same caveat class as the recorded Jun-17 GLM run).",
+  "prompt_verbatim": "Audit knowledge/craft/human-signals.md, knowledge/craft/word_choice.md, and knowledge/craft/draft-gate.md for contradictions. Find places where they disagree, quote both sides of each contradiction, and recommend a fix for each. Be thorough.",
+  "grading": {
+    "loose_keyword_hit": "re.search(r'50K|75K|one-liner ceiling|<50', text) - the recorded loose grader, case-sensitive, any hit",
+    "strict_crossfile_catch": "re.search(r'50K', text) AND re.search(r'75K|one-liner ceiling', text) - mechanical proxy for the recorded both-sides standard (names draft-gate's <50K gate AND word_choice's ~75K ceiling). On the recorded Fable/Opus runs every keyword-hit was a genuine both-sides pairing, so the proxy matches the human grade there; exemplars will be spot-checked for pairing and divergence reported.",
+    "columns": "correct_or_score = strict (0/1); loose_score = new final CSV column"
+  },
+  "baselines_to_compare": {
+    "fable_default(xhigh-configured)": "20/30 = 67%",
+    "opus_default(xhigh-configured)": "2/30 = 7%",
+    "glm_5.2_jun17": "1/30 strict, 5/30 loose"
+  },
+  "question": "Does effort buy correctness when the task is genuinely hard - i.e. does max lift catch-rate above the xhigh-configured baseline?"
+}

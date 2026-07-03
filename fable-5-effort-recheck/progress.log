@@ -1,0 +1,212 @@
+2026-07-03T11:25:42 done=1 audit/fable/low r0 rc=0 22.138s out_tok=448 score=3
+2026-07-03T11:26:22 done=1 easy/fable/medium r6 rc=0 15.076s out_tok=422 score=1
+2026-07-03T11:26:26 done=2 realistic/fable/low r4 rc=0 27.024s out_tok=624 score=
+2026-07-03T11:26:35 done=3 realistic/fable/high r5 rc=0 32.479s out_tok=1375 score=
+2026-07-03T11:26:47 done=4 audit/fable/low r3 rc=0 21.257s out_tok=486 score=3
+2026-07-03T11:26:50 done=5 realistic/fable/medium r5 rc=0 27.818s out_tok=924 score=
+2026-07-03T11:27:06 done=6 realistic/opus/low r8 rc=0 30.854s out_tok=1280 score=
+2026-07-03T11:27:28 done=7 realistic/fable/xhigh r7 rc=0 41.133s out_tok=1755 score=
+2026-07-03T11:27:33 done=8 realistic/opus/high r1 rc=0 26.536s out_tok=1435 score=
+2026-07-03T11:27:37 done=9 easy/fable/max r7 rc=0 47.052s out_tok=2472 score=1
+2026-07-03T11:27:46 done=10 audit/fable/medium r4 rc=0 17.58s out_tok=557 score=3
+2026-07-03T11:27:49 done=11 easy/fable/low r8 rc=0 12.625s out_tok=292 score=1
+2026-07-03T11:27:57 done=12 audit/fable/high r2 rc=0 24.703s out_tok=815 score=3
+2026-07-03T11:28:15 done=13 realistic/opus/high r8 rc=0 29.258s out_tok=1385 score=
+2026-07-03T11:28:22 done=14 easy/fable/max r5 rc=0 32.473s out_tok=1468 score=1
+2026-07-03T11:28:31 done=15 easy/fable/low r7 rc=0 15.981s out_tok=310 score=1
+2026-07-03T11:28:32 done=16 audit/fable/max r1 rc=0 34.064s out_tok=1921 score=3
+2026-07-03T11:28:45 done=17 easy/fable/low r1 rc=0 13.938s out_tok=314 score=1
+2026-07-03T11:28:47 done=18 easy/fable/xhigh r3 rc=0 15.556s out_tok=507 score=1
+2026-07-03T11:29:06 done=19 audit/fable/low r7 rc=0 20.06s out_tok=552 score=3
+2026-07-03T11:29:10 done=20 easy/fable/xhigh r4 rc=0 23.365s out_tok=736 score=1
+2026-07-03T11:29:16 done=21 realistic/fable/max r1 rc=0 53.681s out_tok=3036 score=
+2026-07-03T11:29:25 done=22 realistic/opus/high r7 rc=0 19.694s out_tok=928 score=
+2026-07-03T11:29:37 done=23 audit/fable/low r1 rc=0 27.383s out_tok=551 score=3
+2026-07-03T11:29:47 done=24 audit/fable/max r2 rc=0 31.301s out_tok=1884 score=3
+2026-07-03T11:30:07 done=25 realistic/opus/low r7 rc=0 29.733s out_tok=1135 score=
+2026-07-03T11:30:18 done=26 audit/fable/xhigh r5 rc=0 31.132s out_tok=1077 score=3
+2026-07-03T11:30:36 done=27 realistic/opus/xhigh r8 rc=0 29.159s out_tok=1474 score=
+2026-07-03T11:30:49 done=28 realistic/opus/max r1 rc=0 83.759s out_tok=5922 score=
+2026-07-03T11:30:54 done=29 easy/fable/max r4 rc=0 35.464s out_tok=1492 score=1
+2026-07-03T11:30:59 done=30 realistic/opus/low r1 rc=0 22.972s out_tok=1062 score=
+2026-07-03T11:31:16 done=31 easy/fable/xhigh r2 rc=0 16.414s out_tok=398 score=1
+2026-07-03T11:31:18 done=32 realistic/opus/medium r4 rc=0 28.945s out_tok=1494 score=
+2026-07-03T11:31:24 done=33 easy/fable/max r8 rc=0 30.809s out_tok=1624 score=1
+2026-07-03T11:31:38 done=34 audit/fable/low r8 rc=0 20.382s out_tok=481 score=3
+2026-07-03T11:31:43 done=35 realistic/opus/medium r7 rc=0 27.603s out_tok=1192 score=
+2026-07-03T11:31:57 done=36 realistic/opus/high r6 rc=0 33.12s out_tok=1380 score=
+2026-07-03T11:32:03 done=37 realistic/fable/low r6 rc=0 25.135s out_tok=694 score=
+2026-07-03T11:32:13 done=38 realistic/opus/low r4 rc=0 29.259s out_tok=1299 score=
+2026-07-03T11:32:21 done=39 audit/fable/xhigh r3 rc=0 23.483s out_tok=1043 score=3
+2026-07-03T11:32:35 done=40 realistic/opus/xhigh r4 rc=0 31.067s out_tok=1563 score=
+2026-07-03T11:32:45 done=41 realistic/fable/medium r4 rc=0 32.178s out_tok=1040 score=
+2026-07-03T11:32:47 done=42 audit/fable/xhigh r1 rc=0 26.493s out_tok=1293 score=3
+2026-07-03T11:32:58 done=43 easy/fable/medium r4 rc=0 13.232s out_tok=302 score=1
+2026-07-03T11:33:12 done=44 realistic/fable/xhigh r3 rc=0 37.596s out_tok=1615 score=
+2026-07-03T11:33:12 done=45 realistic/opus/low r3 rc=0 24.876s out_tok=921 score=
+2026-07-03T11:33:22 done=46 realistic/fable/high r4 rc=0 23.942s out_tok=1098 score=
+2026-07-03T11:33:37 done=47 realistic/fable/high r3 rc=0 24.891s out_tok=837 score=
+2026-07-03T11:33:55 done=48 audit/fable/max r4 rc=0 33.212s out_tok=1754 score=3
+2026-07-03T11:34:09 done=49 audit/fable/max r7 rc=0 31.328s out_tok=1925 score=3
+2026-07-03T11:34:09 done=50 realistic/fable/max r5 rc=0 57.237s out_tok=2656 score=
+2026-07-03T11:34:31 done=51 easy/fable/xhigh r5 rc=0 21.318s out_tok=417 score=1
+2026-07-03T11:34:34 done=52 realistic/opus/low r5 rc=0 25.338s out_tok=1052 score=
+2026-07-03T11:34:57 done=53 realistic/opus/max r6 rc=0 61.833s out_tok=4516 score=
+2026-07-03T11:35:01 done=54 easy/fable/max r1 rc=0 30.392s out_tok=1597 score=1
+2026-07-03T11:35:02 done=55 realistic/fable/medium r2 rc=0 28.353s out_tok=935 score=
+2026-07-03T11:35:28 done=56 audit/fable/high r7 rc=0 26.842s out_tok=929 score=3
+2026-07-03T11:35:36 done=57 easy/fable/max r2 rc=0 38.903s out_tok=1986 score=1
+2026-07-03T11:35:37 done=58 realistic/fable/xhigh r1 rc=0 34.346s out_tok=1316 score=
+2026-07-03T11:35:52 done=59 realistic/fable/medium r6 rc=0 24.44s out_tok=947 score=
+2026-07-03T11:35:59 done=60 realistic/fable/low r8 rc=0 22.565s out_tok=699 score=
+2026-07-03T11:36:08 done=61 easy/fable/medium r8 rc=0 15.947s out_tok=402 score=1
+2026-07-03T11:36:20 done=62 realistic/opus/medium r2 rc=0 44.312s out_tok=2234 score=
+2026-07-03T11:36:23 done=63 easy/fable/low r4 rc=0 14.695s out_tok=376 score=1
+2026-07-03T11:36:33 done=64 realistic/opus/high r5 rc=0 33.729s out_tok=1860 score=
+2026-07-03T11:36:45 done=65 audit/fable/low r6 rc=0 21.933s out_tok=484 score=3
+2026-07-03T11:36:48 done=66 realistic/opus/high r3 rc=0 27.68s out_tok=1207 score=
+2026-07-03T11:36:59 done=67 audit/fable/xhigh r4 rc=0 25.629s out_tok=1087 score=3
+2026-07-03T11:37:16 done=68 easy/fable/medium r1 rc=0 17.663s out_tok=324 score=1
+2026-07-03T11:37:32 done=69 realistic/opus/xhigh r5 rc=0 43.759s out_tok=2509 score=
+2026-07-03T11:37:38 done=70 realistic/opus/xhigh r7 rc=0 52.783s out_tok=3194 score=
+2026-07-03T11:37:48 done=71 realistic/fable/low r3 rc=0 31.323s out_tok=793 score=
+2026-07-03T11:37:54 done=72 easy/fable/high r8 rc=0 15.963s out_tok=407 score=1
+2026-07-03T11:38:01 done=73 easy/fable/low r6 rc=0 13.061s out_tok=350 score=1
+2026-07-03T11:38:17 done=74 easy/fable/high r5 rc=0 16.287s out_tok=435 score=1
+2026-07-03T11:38:19 done=75 easy/fable/xhigh r7 rc=0 25.047s out_tok=770 score=1
+2026-07-03T11:38:38 done=76 realistic/opus/max r8 rc=0 66.311s out_tok=4464 score=
+2026-07-03T11:38:40 done=77 realistic/fable/low r2 rc=0 22.574s out_tok=776 score=
+2026-07-03T11:38:43 done=78 realistic/fable/medium r8 rc=0 24.404s out_tok=793 score=
+2026-07-03T11:38:56 done=79 audit/fable/low r5 rc=0 16.776s out_tok=455 score=3
+2026-07-03T11:39:11 done=80 easy/fable/medium r7 rc=0 14.978s out_tok=363 score=1
+2026-07-03T11:39:25 done=81 realistic/opus/xhigh r6 rc=0 41.834s out_tok=2306 score=
+2026-07-03T11:39:42 done=82 realistic/fable/high r6 rc=0 31.019s out_tok=1027 score=
+2026-07-03T11:39:45 done=83 realistic/fable/max r6 rc=0 66.591s out_tok=3525 score=
+2026-07-03T11:39:56 done=84 realistic/fable/high r1 rc=0 31.142s out_tok=1147 score=
+2026-07-03T11:40:10 done=85 audit/fable/xhigh r8 rc=0 27.416s out_tok=1264 score=3
+2026-07-03T11:40:12 done=86 realistic/opus/high r2 rc=0 27.372s out_tok=1305 score=
+2026-07-03T11:40:13 done=87 easy/fable/high r7 rc=0 16.81s out_tok=383 score=1
+2026-07-03T11:40:27 done=88 easy/fable/low r2 rc=0 13.464s out_tok=320 score=1
+2026-07-03T11:40:31 done=89 realistic/fable/low r7 rc=0 18.513s out_tok=795 score=
+2026-07-03T11:40:53 done=90 easy/fable/max r6 rc=0 26.206s out_tok=1144 score=1
+2026-07-03T11:41:04 done=91 audit/fable/xhigh r2 rc=0 33.462s out_tok=1114 score=3
+2026-07-03T11:41:15 done=92 realistic/opus/max r5 rc=0 65.501s out_tok=4643 score=
+2026-07-03T11:41:15 done=93 realistic/fable/medium r7 rc=0 22.701s out_tok=879 score=
+2026-07-03T11:41:31 done=94 realistic/opus/medium r3 rc=0 27.015s out_tok=1195 score=
+2026-07-03T11:41:39 done=95 audit/fable/high r6 rc=0 23.814s out_tok=916 score=3
+2026-07-03T11:41:52 done=96 audit/fable/max r5 rc=0 36.593s out_tok=2019 score=3
+2026-07-03T11:41:55 done=97 easy/fable/medium r5 rc=0 15.701s out_tok=392 score=1
+2026-07-03T11:41:59 done=98 realistic/fable/low r5 rc=0 27.525s out_tok=747 score=
+2026-07-03T11:42:19 done=99 audit/fable/high r5 rc=0 23.807s out_tok=947 score=3
+2026-07-03T11:42:28 done=100 audit/fable/max r6 rc=0 36.622s out_tok=1794 score=3
+2026-07-03T11:42:34 done=101 realistic/fable/xhigh r6 rc=0 35.719s out_tok=1542 score=
+2026-07-03T11:42:43 done=102 audit/fable/medium r3 rc=0 24.154s out_tok=776 score=3
+2026-07-03T11:42:43 done=103 easy/fable/medium r2 rc=0 14.511s out_tok=321 score=1
+2026-07-03T11:42:52 done=104 easy/fable/xhigh r6 rc=0 17.74s out_tok=691 score=1
+2026-07-03T11:43:11 done=105 audit/fable/medium r6 rc=0 27.817s out_tok=673 score=3
+2026-07-03T11:43:15 done=106 realistic/fable/high r2 rc=0 23.083s out_tok=1100 score=
+2026-07-03T11:43:39 done=107 audit/fable/high r1 rc=0 27.788s out_tok=943 score=3
+2026-07-03T11:43:43 done=108 realistic/fable/high r8 rc=0 27.59s out_tok=961 score=
+2026-07-03T11:43:44 done=109 realistic/opus/max r4 rc=0 60.805s out_tok=3106 score=
+2026-07-03T11:43:55 done=110 easy/fable/high r4 rc=0 16.743s out_tok=392 score=1
+2026-07-03T11:44:20 done=111 realistic/fable/xhigh r4 rc=0 37.06s out_tok=1667 score=
+2026-07-03T11:44:20 done=112 realistic/fable/medium r1 rc=0 24.677s out_tok=834 score=
+2026-07-03T11:44:33 done=113 easy/fable/low r5 rc=0 13.343s out_tok=345 score=1
+2026-07-03T11:44:39 done=114 realistic/fable/max r2 rc=0 54.928s out_tok=3193 score=
+2026-07-03T11:44:57 done=115 audit/fable/medium r7 rc=0 18.127s out_tok=666 score=3
+2026-07-03T11:45:01 done=116 realistic/fable/max r4 rc=0 41.215s out_tok=1857 score=
+2026-07-03T11:45:21 done=117 realistic/fable/max r8 rc=0 47.984s out_tok=2722 score=
+2026-07-03T11:45:27 done=118 realistic/fable/medium r3 rc=0 26.105s out_tok=737 score=
+2026-07-03T11:45:31 done=119 audit/fable/max r3 rc=0 33.676s out_tok=1943 score=3
+2026-07-03T11:45:53 done=120 realistic/opus/low r6 rc=0 22.104s out_tok=892 score=
+2026-07-03T11:45:59 done=121 realistic/opus/medium r8 rc=0 31.948s out_tok=1562 score=
+2026-07-03T11:46:06 done=122 easy/fable/medium r3 rc=0 13.096s out_tok=386 score=1
+2026-07-03T11:46:06 done=123 realistic/opus/xhigh r1 rc=0 45.106s out_tok=2696 score=
+2026-07-03T11:46:24 done=124 audit/fable/medium r8 rc=0 24.317s out_tok=782 score=3
+2026-07-03T11:46:25 done=125 easy/fable/xhigh r1 rc=0 19.71s out_tok=713 score=1
+2026-07-03T11:46:37 done=126 realistic/fable/xhigh r5 rc=0 31.058s out_tok=1373 score=
+2026-07-03T11:46:56 done=127 realistic/opus/medium r5 rc=0 32.282s out_tok=1515 score=
+2026-07-03T11:46:57 done=128 realistic/fable/xhigh r8 rc=0 31.276s out_tok=1483 score=
+2026-07-03T11:47:04 done=129 realistic/fable/xhigh r2 rc=0 27.067s out_tok=1324 score=
+2026-07-03T11:47:20 done=130 realistic/fable/low r1 rc=0 23.976s out_tok=754 score=
+2026-07-03T11:47:29 done=131 audit/fable/xhigh r7 rc=0 24.394s out_tok=1173 score=3
+2026-07-03T11:47:46 done=132 easy/fable/high r3 rc=0 17.665s out_tok=442 score=1
+2026-07-03T11:47:50 done=133 easy/fable/max r3 rc=0 29.652s out_tok=1341 score=1
+2026-07-03T11:48:07 done=134 audit/fable/medium r5 rc=0 20.231s out_tok=748 score=3
+2026-07-03T11:48:15 done=135 realistic/opus/max r2 rc=0 78.541s out_tok=5562 score=
+2026-07-03T11:48:19 done=136 audit/fable/high r3 rc=0 29.505s out_tok=863 score=3
+2026-07-03T11:48:42 done=137 audit/fable/high r8 rc=0 27.048s out_tok=852 score=3
+2026-07-03T11:48:57 done=138 realistic/fable/max r7 rc=0 50.603s out_tok=2836 score=
+2026-07-03T11:49:10 done=139 realistic/opus/high r4 rc=0 27.528s out_tok=1260 score=
+2026-07-03T11:49:12 done=140 easy/fable/low r3 rc=0 14.694s out_tok=316 score=1
+2026-07-03T11:49:34 done=141 realistic/opus/medium r6 rc=0 23.665s out_tok=1212 score=
+2026-07-03T11:49:40 done=142 audit/fable/xhigh r6 rc=0 27.713s out_tok=1267 score=3
+2026-07-03T11:49:51 done=143 realistic/opus/max r3 rc=0 92.333s out_tok=6892 score=
+2026-07-03T11:50:00 done=144 easy/fable/xhigh r8 rc=0 20.252s out_tok=746 score=1
+2026-07-03T11:50:11 done=145 audit/fable/max r8 rc=0 37.579s out_tok=1804 score=3
+2026-07-03T11:50:21 done=146 realistic/opus/medium r1 rc=0 29.581s out_tok=1223 score=
+2026-07-03T11:50:32 done=147 realistic/fable/high r7 rc=0 31.524s out_tok=1207 score=
+2026-07-03T11:50:41 done=148 audit/fable/low r2 rc=0 19.94s out_tok=495 score=3
+2026-07-03T11:50:55 done=149 realistic/opus/low r2 rc=0 23.912s out_tok=1043 score=
+2026-07-03T11:51:04 done=150 realistic/opus/xhigh r3 rc=0 53.017s out_tok=3061 score=
+2026-07-03T11:51:11 done=151 realistic/opus/xhigh r2 rc=0 30.505s out_tok=1595 score=
+2026-07-03T11:51:15 done=152 easy/fable/high r6 rc=0 19.121s out_tok=375 score=1
+2026-07-03T11:51:17 done=153 easy/fable/high r1 rc=0 13.024s out_tok=408 score=1
+2026-07-03T11:51:34 done=154 audit/fable/medium r2 rc=0 19.695s out_tok=593 score=3
+2026-07-03T11:51:36 done=155 audit/fable/high r4 rc=0 24.593s out_tok=906 score=3
+2026-07-03T11:51:59 done=156 audit/fable/low r4 rc=0 24.711s out_tok=495 score=3
+2026-07-03T11:52:18 done=157 easy/fable/high r2 rc=0 18.848s out_tok=426 score=1
+2026-07-03T11:52:41 done=158 realistic/opus/max r7 rc=0 83.638s out_tok=5826 score=
+2026-07-03T11:53:44 done=159 realistic/fable/max r3 rc=0 63.149s out_tok=4268 score=
+2026-07-03T11:54:10 done=160 audit/fable/medium r1 rc=0 26.247s out_tok=755 score=3
+2026-07-03T12:23:04 done(needle)=1 needle/fable/low r6 rc=0 119.543s out_tok=7431 strict=0 loose=0
+2026-07-03T12:23:36 done(needle)=2 needle/fable/medium r10 rc=0 159.411s out_tok=11401 strict=0 loose=0
+2026-07-03T12:24:09 done(needle)=3 needle/opus/high r2 rc=0 188.548s out_tok=13799 strict=0 loose=0
+2026-07-03T12:25:37 done(needle)=4 needle/fable/low r3 rc=0 120.936s out_tok=8233 strict=0 loose=0
+2026-07-03T12:35:14 done(needle)=1 needle/opus/medium r4 rc=0 153.164s out_tok=10780 strict=0 loose=0
+2026-07-03T12:35:28 done(needle)=2 needle/fable/medium r1 rc=0 162.576s out_tok=11955 strict=0 loose=0
+2026-07-03T12:35:58 done(needle)=3 needle/opus/medium r2 rc=0 188.814s out_tok=13454 strict=0 loose=0
+2026-07-03T12:39:08 done(needle)=4 needle/fable/high r3 rc=0 233.71s out_tok=17942 strict=0 loose=0
+2026-07-03T12:43:09 done(needle)=1 needle/fable/low r1 rc=0 117.3s out_tok=8275 strict=0 loose=0
+2026-07-03T12:44:10 done(needle)=2 needle/opus/medium r5 rc=0 170.857s out_tok=12387 strict=0 loose=0
+2026-07-03T12:44:15 done(needle)=3 needle/opus/high r4 rc=0 179.305s out_tok=12615 strict=0 loose=0
+2026-07-03T12:44:41 done(needle)=4 needle/opus/high r1 rc=0 221.755s out_tok=16318 strict=0 loose=0
+2026-07-03T12:44:50 done(needle)=5 needle/opus/high r5 rc=0 226.217s out_tok=16499 strict=0 loose=0
+2026-07-03T12:44:58 done(needle)=6 needle/fable/low r2 rc=0 109.239s out_tok=7142 strict=0 loose=0
+2026-07-03T12:45:34 done(needle)=7 needle/opus/xhigh r5 rc=0 266.615s out_tok=19547 strict=0 loose=0
+2026-07-03T12:47:01 done(needle)=8 needle/opus/low r1 rc=0 131.619s out_tok=9170 strict=0 loose=0
+2026-07-03T12:47:39 done(needle)=9 needle/fable/medium r3 rc=0 160.579s out_tok=11916 strict=0 loose=0
+2026-07-03T12:47:52 done(needle)=10 needle/fable/medium r2 rc=0 190.504s out_tok=13748 strict=0 loose=0
+2026-07-03T12:48:20 done(needle)=11 needle/fable/high r5 rc=0 249.385s out_tok=18689 strict=0 loose=0
+2026-07-03T12:49:38 done(needle)=12 needle/opus/xhigh r2 rc=0 323.284s out_tok=24376 strict=0 loose=0
+2026-07-03T12:50:46 done(needle)=13 needle/opus/medium r3 rc=0 174.414s out_tok=13087 strict=0 loose=0
+2026-07-03T12:51:32 done(needle)=14 needle/opus/xhigh r3 rc=0 358.191s out_tok=27509 strict=0 loose=0
+2026-07-03T12:53:03 done(needle)=15 needle/opus/high r3 rc=0 205.141s out_tok=14675 strict=0 loose=0
+2026-07-03T12:53:37 done(needle)=16 needle/fable/xhigh r1 rc=0 395.329s out_tok=30338 strict=1 loose=1
+2026-07-03T12:54:51 done(needle)=17 needle/opus/max r5 rc=0 432.103s out_tok=33521 strict=0 loose=0
+2026-07-03T12:55:41 done(needle)=18 needle/opus/max r3 rc=0 440.973s out_tok=33134 strict=0 loose=0
+2026-07-03T12:55:53 done(needle)=19 needle/opus/low r4 rc=0 136.397s out_tok=9072 strict=0 loose=0
+2026-07-03T12:56:36 done(needle)=20 needle/fable/high r2 rc=0 303.868s out_tok=23396 strict=0 loose=0
+2026-07-03T12:58:04 done(needle)=21 needle/opus/max r1 rc=0 438.165s out_tok=33122 strict=0 loose=0
+2026-07-03T12:59:28 done(needle)=22 needle/fable/xhigh r4 rc=0 384.37s out_tok=29302 strict=0 loose=0
+2026-07-03T12:59:51 done(needle)=23 needle/fable/high r1 rc=0 250.619s out_tok=19479 strict=0 loose=0
+2026-07-03T13:01:40 done(needle)=24 needle/opus/low r3 rc=0 132.185s out_tok=9196 strict=0 loose=0
+2026-07-03T13:02:02 done(needle)=25 needle/opus/low r2 rc=0 130.62s out_tok=9439 strict=0 loose=0
+2026-07-03T13:02:57 done(needle)=26 needle/opus/xhigh r4 rc=0 292.523s out_tok=22924 strict=0 loose=0
+2026-07-03T13:06:10 done(needle)=27 needle/fable/high r4 rc=0 270.499s out_tok=20692 strict=0 loose=0
+2026-07-03T13:06:15 done(needle)=28 needle/fable/max r4 rc=0 579.088s out_tok=44010 strict=1 loose=1
+2026-07-03T13:06:31 done(needle)=29 needle/fable/max r3 rc=-9 700.135s out_tok= strict=0 loose=0
+2026-07-03T13:07:14 done(needle)=30 needle/fable/max r5 rc=0 681.274s out_tok=51939 strict=1 loose=1
+2026-07-03T13:08:09 done(needle)=31 needle/fable/low r4 rc=0 113.892s out_tok=7906 strict=0 loose=0
+2026-07-03T13:08:17 done(needle)=32 needle/opus/low r5 rc=0 126.284s out_tok=8596 strict=0 loose=0
+2026-07-03T13:08:50 done(needle)=33 needle/opus/xhigh r1 rc=0 352.733s out_tok=25816 strict=0 loose=0
+2026-07-03T13:09:12 done(needle)=34 needle/fable/medium r4 rc=0 161.375s out_tok=11400 strict=0 loose=0
+2026-07-03T13:11:55 done(needle)=35 needle/fable/max r1 rc=0 593.226s out_tok=45145 strict=0 loose=0
+2026-07-03T13:14:22 done(needle)=36 needle/fable/xhigh r5 rc=0 332.744s out_tok=26030 strict=1 loose=1
+2026-07-03T13:14:32 done(needle)=37 needle/opus/medium r1 rc=0 157.113s out_tok=10735 strict=0 loose=0
+2026-07-03T13:14:44 done(needle)=38 needle/opus/max r4 rc=0 449.125s out_tok=33594 strict=0 loose=0
+2026-07-03T13:16:23 done(needle)=39 needle/fable/xhigh r3 rc=0 430.646s out_tok=32163 strict=0 loose=0
+2026-07-03T13:19:20 done(needle)=40 needle/fable/max r2 rc=0 670.238s out_tok=49619 strict=1 loose=1
+2026-07-03T13:20:35 done(needle)=41 needle/fable/xhigh r2 rc=0 351.862s out_tok=27323 strict=0 loose=0
+2026-07-03T13:27:35 done(needle)=42 needle/opus/max r2 rc=0 495.814s out_tok=36986 strict=0 loose=0
+2026-07-03T13:40:04 done(needle)=1 needle/fable/max r6 rc=0 562.709s out_tok=43864 strict=0 loose=0

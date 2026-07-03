@@ -1,0 +1,386 @@
+{
+ "audit/fable/low": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 20.8,
+  "p95_seconds": 26.4,
+  "worst_seconds": 27.4,
+  "median_output_tokens": 490,
+  "median_input_tokens": 6780,
+  "median_chars": 671,
+  "mean_bug_score": 3.0,
+  "score_distribution": {
+   "3": 8
+  }
+ },
+ "audit/fable/medium": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 22.2,
+  "p95_seconds": 27.3,
+  "worst_seconds": 27.8,
+  "median_output_tokens": 710,
+  "median_input_tokens": 7116,
+  "median_chars": 979,
+  "mean_bug_score": 3.0,
+  "score_distribution": {
+   "3": 8
+  }
+ },
+ "audit/fable/high": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 25.8,
+  "p95_seconds": 28.9,
+  "worst_seconds": 29.5,
+  "median_output_tokens": 911,
+  "median_input_tokens": 7116,
+  "median_chars": 1100,
+  "mean_bug_score": 3.0,
+  "score_distribution": {
+   "3": 8
+  }
+ },
+ "audit/fable/xhigh": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 27.0,
+  "p95_seconds": 32.6,
+  "worst_seconds": 33.5,
+  "median_output_tokens": 1143,
+  "median_input_tokens": 6818,
+  "median_chars": 1155,
+  "mean_bug_score": 3.0,
+  "score_distribution": {
+   "3": 8
+  }
+ },
+ "audit/fable/max": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 33.9,
+  "p95_seconds": 37.2,
+  "worst_seconds": 37.6,
+  "median_output_tokens": 1902,
+  "median_input_tokens": 6694,
+  "median_chars": 1269,
+  "mean_bug_score": 3.0,
+  "score_distribution": {
+   "3": 8
+  }
+ },
+ "easy/fable/low": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 13.7,
+  "p95_seconds": 15.5,
+  "worst_seconds": 16.0,
+  "median_output_tokens": 318,
+  "median_input_tokens": 6347,
+  "median_chars": 925,
+  "exactly_3_bullets_rate": 1.0
+ },
+ "easy/fable/medium": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 15.0,
+  "p95_seconds": 17.1,
+  "worst_seconds": 17.7,
+  "median_output_tokens": 374,
+  "median_input_tokens": 6433,
+  "median_chars": 1032,
+  "exactly_3_bullets_rate": 1.0
+ },
+ "easy/fable/high": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 16.8,
+  "p95_seconds": 19.0,
+  "worst_seconds": 19.1,
+  "median_output_tokens": 407,
+  "median_input_tokens": 6347,
+  "median_chars": 1083,
+  "exactly_3_bullets_rate": 1.0
+ },
+ "easy/fable/xhigh": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 20.0,
+  "p95_seconds": 24.5,
+  "worst_seconds": 25.0,
+  "median_output_tokens": 702,
+  "median_input_tokens": 6644,
+  "median_chars": 1100,
+  "exactly_3_bullets_rate": 1.0
+ },
+ "easy/fable/max": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 31.6,
+  "p95_seconds": 44.2,
+  "worst_seconds": 47.1,
+  "median_output_tokens": 1544,
+  "median_input_tokens": 6769,
+  "median_chars": 1077,
+  "exactly_3_bullets_rate": 1.0
+ },
+ "needle/fable/low": {
+  "n": 5,
+  "n_clean": 5,
+  "median_seconds": 117.3,
+  "p95_seconds": 120.7,
+  "worst_seconds": 120.9,
+  "median_output_tokens": 7906,
+  "median_input_tokens": 7423,
+  "median_chars": 9286,
+  "strict_catch": "0/5",
+  "strict_rate": 0.0,
+  "loose_catch": "0/5"
+ },
+ "needle/fable/medium": {
+  "n": 5,
+  "n_clean": 5,
+  "median_seconds": 161.4,
+  "p95_seconds": 184.9,
+  "worst_seconds": 190.5,
+  "median_output_tokens": 11916,
+  "median_input_tokens": 7402,
+  "median_chars": 12982,
+  "strict_catch": "0/5",
+  "strict_rate": 0.0,
+  "loose_catch": "0/5"
+ },
+ "needle/fable/high": {
+  "n": 5,
+  "n_clean": 5,
+  "median_seconds": 250.6,
+  "p95_seconds": 297.2,
+  "worst_seconds": 303.9,
+  "median_output_tokens": 19479,
+  "median_input_tokens": 7402,
+  "median_chars": 14960,
+  "strict_catch": "0/5",
+  "strict_rate": 0.0,
+  "loose_catch": "0/5"
+ },
+ "needle/fable/xhigh": {
+  "n": 5,
+  "n_clean": 5,
+  "median_seconds": 384.4,
+  "p95_seconds": 423.6,
+  "worst_seconds": 430.6,
+  "median_output_tokens": 29302,
+  "median_input_tokens": 7423,
+  "median_chars": 14862,
+  "strict_catch": "2/5",
+  "strict_rate": 0.4,
+  "loose_catch": "2/5"
+ },
+ "needle/fable/max": {
+  "n": 6,
+  "n_clean": 5,
+  "median_seconds": 593.2,
+  "p95_seconds": 679.1,
+  "worst_seconds": 681.3,
+  "median_output_tokens": 45145,
+  "median_input_tokens": 7408,
+  "median_chars": 17052,
+  "strict_catch": "3/5",
+  "strict_rate": 0.6,
+  "loose_catch": "3/5"
+ },
+ "needle/opus/low": {
+  "n": 5,
+  "n_clean": 5,
+  "median_seconds": 131.6,
+  "p95_seconds": 135.6,
+  "worst_seconds": 136.4,
+  "median_output_tokens": 9170,
+  "median_input_tokens": 7423,
+  "median_chars": 7794,
+  "strict_catch": "0/5",
+  "strict_rate": 0.0,
+  "loose_catch": "0/5"
+ },
+ "needle/opus/medium": {
+  "n": 5,
+  "n_clean": 5,
+  "median_seconds": 170.9,
+  "p95_seconds": 185.9,
+  "worst_seconds": 188.8,
+  "median_output_tokens": 12387,
+  "median_input_tokens": 7423,
+  "median_chars": 9033,
+  "strict_catch": "0/5",
+  "strict_rate": 0.0,
+  "loose_catch": "0/5"
+ },
+ "needle/opus/high": {
+  "n": 5,
+  "n_clean": 5,
+  "median_seconds": 205.1,
+  "p95_seconds": 225.3,
+  "worst_seconds": 226.2,
+  "median_output_tokens": 14675,
+  "median_input_tokens": 7423,
+  "median_chars": 10366,
+  "strict_catch": "0/5",
+  "strict_rate": 0.0,
+  "loose_catch": "0/5"
+ },
+ "needle/opus/xhigh": {
+  "n": 5,
+  "n_clean": 5,
+  "median_seconds": 323.3,
+  "p95_seconds": 357.1,
+  "worst_seconds": 358.2,
+  "median_output_tokens": 24376,
+  "median_input_tokens": 7413,
+  "median_chars": 12124,
+  "strict_catch": "0/5",
+  "strict_rate": 0.0,
+  "loose_catch": "0/5"
+ },
+ "needle/opus/max": {
+  "n": 5,
+  "n_clean": 5,
+  "median_seconds": 441.0,
+  "p95_seconds": 486.5,
+  "worst_seconds": 495.8,
+  "median_output_tokens": 33521,
+  "median_input_tokens": 7423,
+  "median_chars": 13380,
+  "strict_catch": "0/5",
+  "strict_rate": 0.0,
+  "loose_catch": "0/5"
+ },
+ "needle-skill/opus/xhigh": {
+  "n": 1,
+  "n_clean": 1,
+  "median_seconds": 380.3,
+  "p95_seconds": 380.346,
+  "worst_seconds": 380.3,
+  "median_output_tokens": 28765,
+  "median_input_tokens": 7402,
+  "median_chars": 13725,
+  "strict_catch": "0/1",
+  "strict_rate": 0.0,
+  "loose_catch": "0/1"
+ },
+ "realistic/fable/low": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 24.6,
+  "p95_seconds": 30.0,
+  "worst_seconds": 31.3,
+  "median_output_tokens": 750,
+  "median_input_tokens": 6560,
+  "median_chars": 1036
+ },
+ "realistic/fable/medium": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 25.4,
+  "p95_seconds": 30.8,
+  "worst_seconds": 32.2,
+  "median_output_tokens": 901,
+  "median_input_tokens": 6349,
+  "median_chars": 1049
+ },
+ "realistic/fable/high": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 29.3,
+  "p95_seconds": 32.1,
+  "worst_seconds": 32.5,
+  "median_output_tokens": 1099,
+  "median_input_tokens": 6473,
+  "median_chars": 1116
+ },
+ "realistic/fable/xhigh": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 35.0,
+  "p95_seconds": 39.9,
+  "worst_seconds": 41.1,
+  "median_output_tokens": 1512,
+  "median_input_tokens": 6560,
+  "median_chars": 1066
+ },
+ "realistic/fable/max": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 54.3,
+  "p95_seconds": 65.4,
+  "worst_seconds": 66.6,
+  "median_output_tokens": 2936,
+  "median_input_tokens": 7386,
+  "median_chars": 1158
+ },
+ "realistic/opus/low": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 25.1,
+  "p95_seconds": 30.5,
+  "worst_seconds": 30.9,
+  "median_output_tokens": 1057,
+  "median_input_tokens": 7391,
+  "median_chars": 1045
+ },
+ "realistic/opus/medium": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 29.3,
+  "p95_seconds": 40.1,
+  "worst_seconds": 44.3,
+  "median_output_tokens": 1358,
+  "median_input_tokens": 7387,
+  "median_chars": 1113
+ },
+ "realistic/opus/high": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 27.6,
+  "p95_seconds": 33.5,
+  "worst_seconds": 33.7,
+  "median_output_tokens": 1342,
+  "median_input_tokens": 7396,
+  "median_chars": 1107
+ },
+ "realistic/opus/xhigh": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 42.8,
+  "p95_seconds": 52.9,
+  "worst_seconds": 53.0,
+  "median_output_tokens": 2407,
+  "median_input_tokens": 7396,
+  "median_chars": 1097
+ },
+ "realistic/opus/max": {
+  "n": 8,
+  "n_clean": 8,
+  "median_seconds": 72.4,
+  "p95_seconds": 89.3,
+  "worst_seconds": 92.3,
+  "median_output_tokens": 5102,
+  "median_input_tokens": 7076,
+  "median_chars": 1409
+ },
+ "_meta": {
+  "build": "Claude Code CLI 2.1.198, 2026-07-03 (day-4 reference: 2.1.173, June 12)",
+  "total_rows": 212,
+  "clean_rows": 211,
+  "failed_rows": 1,
+  "failed_detail": [
+   {
+    "task": "needle",
+    "model": "fable",
+    "effort": "max",
+    "round": "3",
+    "rc": "-9"
+   }
+  ],
+  "notes": "seconds = wall clock incl. CLI startup (day-4 parity). output_tokens from CLI result JSON usage; includes thinking (no separate reasoning-token field exposed). CLAUDE_EFFORT env stripped; explicit --effort flags on every run."
+ }
+}

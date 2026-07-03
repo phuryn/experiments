@@ -1,0 +1,31 @@
+{
+  "task": "planted-contradictions audit (discriminating tier)",
+  "created": "2026-07-03, BEFORE any grid runs",
+  "files": [
+    "Temp/output/fable5-return-0703/audit/service-overview.md",
+    "Temp/output/fable5-return-0703/audit/deploy-runbook.md"
+  ],
+  "design_note": "Exactly 3 planted factual contradictions, graded difficulty. Every other fact that appears in both files is identical (port 8443, rate limit 1200/min, eu-west-1/eu-central-1, SLA 99.9%, topic/consumer-group/DLQ names, canary 5%-then-ramp, Helm chart meridian-2.x, Flyway, s3 path, <4min failover, idempotent replay). Facts appearing in only one file cannot contradict.",
+  "contradictions": [
+    {
+      "id": "C1-retention",
+      "difficulty": "easy",
+      "truth": "overview: raw telemetry retained 35 days (prose); runbook: 175 days (parameter table)",
+      "match_all_regexes": ["\\b35\\b", "\\b175\\b"]
+    },
+    {
+      "id": "C2-datastore",
+      "difficulty": "medium",
+      "truth": "overview: state lives in PostgreSQL 16; runbook: 'the MySQL 8.4 state store' (different phrasing, mid-paragraph)",
+      "match_all_regexes": ["(?i)postgre", "(?i)mysql"]
+    },
+    {
+      "id": "C3-checkpoint",
+      "difficulty": "subtle",
+      "truth": "overview: workers checkpoint consumer offsets every 30 seconds (buried at end of a prose paragraph); runbook: checkpoint cadence 5 minutes (table row). Requires noticing the unit mismatch across formats.",
+      "match_all_regexes": ["(?i)30[\\s-]*(s\\b|sec)", "(?i)(5[\\s-]*min|300[\\s-]*(s\\b|sec))"]
+    }
+  ],
+  "grading": "score(run) = count of contradictions where ALL regexes in match_all_regexes match the run's answer text; range 0-3. Mechanical, applied identically to every run.",
+  "prompt": "Read Temp/output/fable5-return-0703/audit/service-overview.md and Temp/output/fable5-return-0703/audit/deploy-runbook.md. List every factual contradiction between the two files. Be precise."
+}
