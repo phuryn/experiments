@@ -23,19 +23,19 @@ T5,GPT-5.6 Sol,Codex CLI,primary,yes,45.6,0,blind-judged,46539,39168,451,110,469
 T6,GPT-5.6 Sol,Codex CLI,primary,yes,131.7,0,14/14,203792,186624,2729,863,206521,0.261,cumulative-sum
 T7,GPT-5.6 Sol,Codex CLI,primary,yes,1339.4,0,blind-judged,13870777,13414656,33087,12538,13903864,9.9805,cumulative-sum(T7-cap-1800s)
 T8,GPT-5.6 Sol,Codex CLI,primary,yes,159.3,0,blind-judged,367495,305664,5407,2472,372902,0.6242,cumulative-sum
-T1,Grok 4.3,grok CLI (ACP),primary,no,76.3,0,correct,29479,29440,4543,3369,34022,,context-snapshot-DEFECT
-T2,Grok 4.3,grok CLI (ACP),primary,no,16.2,0,correct,24549,24320,470,324,25020,,context-snapshot-DEFECT
-T3,Grok 4.3,grok CLI (ACP),primary,no,206.1,0,blind-judged,96842,96512,2097,70,98941,,context-snapshot-DEFECT
-T4,Grok 4.3,grok CLI (ACP),primary,no,76.8,0,fail,39663,39424,542,216,40206,,context-snapshot-DEFECT
-T5,Grok 4.3,grok CLI (ACP),primary,no,38.7,0,blind-judged,23101,22528,393,165,23495,,context-snapshot-DEFECT
-T6,Grok 4.3,grok CLI (ACP),primary,no,120.7,0,14/14,36211,36096,711,247,36922,,context-snapshot-DEFECT
-T7,Grok 4.3,grok CLI (ACP),primary,no,245.6,0,blind-judged,103819,103168,2907,62,106727,,context-snapshot-DEFECT
-T8,Grok 4.3,grok CLI (ACP),primary,no,85.3,0,blind-judged,57266,57088,1988,40,59254,,context-snapshot-DEFECT
-T1,Grok 4.5,grok CLI (ACP),remote-2core,yes,36.2,0,correct,24081,23936,1805,1016,25886,,context-snapshot-DEFECT
-T2,Grok 4.5,grok CLI (ACP),remote-2core,yes,6.8,0,correct,21834,6016,417,274,22252,,context-snapshot-DEFECT
-T3,Grok 4.5,grok CLI (ACP),remote-2core,yes,173.6,0,blind-judged,125578,123904,5030,318,130609,,context-snapshot-DEFECT
-T4,Grok 4.5,grok CLI (ACP),remote-2core,yes,25.6,0,pass,22984,22656,145,15,23129,,context-snapshot-DEFECT
-T5,Grok 4.5,grok CLI (ACP),remote-2core,yes,7.7,0,blind-judged,13552,12672,156,31,13709,,context-snapshot-DEFECT
-T6,Grok 4.5,grok CLI (ACP),remote-2core,yes,12.9,0,14/14,18585,18176,686,544,19272,,context-snapshot-DEFECT
-T7,Grok 4.5,grok CLI (ACP),remote-2core,yes,158.1,0,blind-judged,133747,132352,4477,220,138225,,context-snapshot-DEFECT
-T8,Grok 4.5,grok CLI (ACP),remote-2core,yes,23.2,0,blind-judged,29705,27776,1010,159,30716,,context-snapshot-DEFECT
+T1,Grok 4.3,grok CLI (ACP),primary,no,76.3,0,correct,29479,29440,4543,3369,34022,0.1060,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T2,Grok 4.3,grok CLI (ACP),primary,no,16.2,0,correct,24549,24320,470,324,25020,0.0780,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T3,Grok 4.3,grok CLI (ACP),primary,no,206.1,0,blind-judged,96842,96512,2097,70,98941,2.6071,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T4,Grok 4.3,grok CLI (ACP),primary,no,76.8,0,fail,39663,39424,542,216,40206,0.4709,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T5,Grok 4.3,grok CLI (ACP),primary,no,38.7,0,blind-judged,23101,22528,393,165,23495,0.2053,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T6,Grok 4.3,grok CLI (ACP),primary,no,120.7,0,14/14,36211,36096,711,247,36922,0.5650,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T7,Grok 4.3,grok CLI (ACP),primary,no,245.6,0,blind-judged,103819,103168,2907,62,106727,2.7988,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T8,Grok 4.3,grok CLI (ACP),primary,no,85.3,0,blind-judged,57266,57088,1988,40,59254,0.4964,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T1,Grok 4.5,grok CLI (ACP),remote-2core,yes,36.2,0,correct,24081,23936,1805,1016,25886,0.0935,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T2,Grok 4.5,grok CLI (ACP),remote-2core,yes,6.8,0,correct,21834,6016,417,274,22252,0.0261,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T3,Grok 4.5,grok CLI (ACP),remote-2core,yes,173.6,0,blind-judged,125578,123904,5030,318,130609,1.0504,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T4,Grok 4.5,grok CLI (ACP),remote-2core,yes,25.6,0,pass,22984,22656,145,15,23129,0.0942,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T5,Grok 4.5,grok CLI (ACP),remote-2core,yes,7.7,0,blind-judged,13552,12672,156,31,13709,0.0355,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T6,Grok 4.5,grok CLI (ACP),remote-2core,yes,12.9,0,14/14,18585,18176,686,544,19272,0.0608,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T7,Grok 4.5,grok CLI (ACP),remote-2core,yes,158.1,0,blind-judged,133747,132352,4477,220,138225,1.3153,context-snapshot-DEFECT(cost=transcript-reconstruction)
+T8,Grok 4.5,grok CLI (ACP),remote-2core,yes,23.2,0,blind-judged,29705,27776,1010,159,30716,0.1123,context-snapshot-DEFECT(cost=transcript-reconstruction)
