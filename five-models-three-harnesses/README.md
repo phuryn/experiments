@@ -136,4 +136,4 @@ Comparing those two meters raw is a category error. On this battery it understat
 
 **Withheld** (quote the private repo): planted answer keys, seeded diffs, raw model reports, the doc-plant patch, the review patch, the private task prompts, and the rig-rebuild script.
 
-**Source post:** TBD.
+**Source post:** [@PawelHuryn on X](https://x.com/PawelHuryn/status/2075473856957940186)
