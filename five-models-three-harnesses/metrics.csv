@@ -1,0 +1,41 @@
+task,engine,harness,machine,effort_binds,wall_s,exit,grade,input_tok,cached_tok,output_tok,reasoning_tok,total_tok,cost_usd,token_basis
+T1,Opus 4.8,Claude Code CLI,primary,yes,17.9,0,correct,5937,16155,1390,,39193,0.1707,cumulative-sum
+T2,Opus 4.8,Claude Code CLI,primary,yes,6.6,0,correct,5937,16155,237,,38014,0.1417,cumulative-sum
+T3,Opus 4.8,Claude Code CLI,primary,yes,178.2,0,blind-judged,7130,997318,11952,,1165839,1.7671,cumulative-sum
+T4,Opus 4.8,Claude Code CLI,primary,yes,30.7,0,pass,6601,162150,1622,,215727,0.4381,cumulative-sum
+T5,Opus 4.8,Claude Code CLI,primary,yes,25.2,0,blind-judged,4676,84642,524,,111242,0.2126,cumulative-sum
+T6,Opus 4.8,Claude Code CLI,primary,yes,30.0,0,14/14,6599,127935,1962,,161631,0.3031,cumulative-sum
+T7,Opus 4.8,Claude Code CLI,primary,yes,295.5,0,blind-judged,7648,2457801,20282,,2649150,2.7956,cumulative-sum
+T8,Opus 4.8,Claude Code CLI,primary,yes,73.3,0,blind-judged,5717,170386,3838,,207060,0.3792,cumulative-sum
+T1,GPT-5.5,Codex CLI,primary,yes,29.2,0,correct,16276,1920,563,307,16839,0.0896,cumulative-sum
+T2,GPT-5.5,Codex CLI,primary,yes,24.5,0,correct,15878,1920,187,60,16065,0.0764,cumulative-sum
+T3,GPT-5.5,Codex CLI,primary,yes,424.2,0,blind-judged,3202780,2974208,13412,3369,3216192,3.0323,cumulative-sum
+T4,GPT-5.5,Codex CLI,primary,yes,221.9,0,pass,449339,409344,3517,1298,452856,0.5102,cumulative-sum
+T5,GPT-5.5,Codex CLI,primary,yes,56.9,0,blind-judged,69442,53248,1033,235,70475,0.1386,cumulative-sum
+T6,GPT-5.5,Codex CLI,primary,yes,75.6,0,14/14,132733,112256,1604,391,134337,0.2066,cumulative-sum
+T7,GPT-5.5,Codex CLI,primary,yes,759.7,0,blind-judged,3426861,3151616,15556,2179,3442417,3.4187,cumulative-sum(rerun;attempt1-DNF@900s-raised-1800s)
+T8,GPT-5.5,Codex CLI,primary,yes,174.7,0,blind-judged,308716,250880,4469,1936,313185,0.5487,cumulative-sum
+T1,GPT-5.6 Sol,Codex CLI,primary,yes,35.9,0,correct,47648,40192,595,211,48243,0.0752,cumulative-sum
+T2,GPT-5.6 Sol,Codex CLI,primary,yes,18.9,0,correct,27692,23040,235,78,27927,0.0418,cumulative-sum
+T3,GPT-5.6 Sol,Codex CLI,primary,yes,1036.3,0,blind-judged,11630948,11309824,28350,12553,11659298,8.111,cumulative-sum
+T4,GPT-5.6 Sol,Codex CLI,primary,yes,181.5,0,pass,516043,473088,4173,2053,520216,0.5765,cumulative-sum
+T5,GPT-5.6 Sol,Codex CLI,primary,yes,45.6,0,blind-judged,46539,39168,451,110,46990,0.07,cumulative-sum
+T6,GPT-5.6 Sol,Codex CLI,primary,yes,131.7,0,14/14,203792,186624,2729,863,206521,0.261,cumulative-sum
+T7,GPT-5.6 Sol,Codex CLI,primary,yes,1339.4,0,blind-judged,13870777,13414656,33087,12538,13903864,9.9805,cumulative-sum(T7-cap-1800s)
+T8,GPT-5.6 Sol,Codex CLI,primary,yes,159.3,0,blind-judged,367495,305664,5407,2472,372902,0.6242,cumulative-sum
+T1,Grok 4.3,grok CLI (ACP),primary,no,76.3,0,correct,29479,29440,4543,3369,34022,,context-snapshot-DEFECT
+T2,Grok 4.3,grok CLI (ACP),primary,no,16.2,0,correct,24549,24320,470,324,25020,,context-snapshot-DEFECT
+T3,Grok 4.3,grok CLI (ACP),primary,no,206.1,0,blind-judged,96842,96512,2097,70,98941,,context-snapshot-DEFECT
+T4,Grok 4.3,grok CLI (ACP),primary,no,76.8,0,fail,39663,39424,542,216,40206,,context-snapshot-DEFECT
+T5,Grok 4.3,grok CLI (ACP),primary,no,38.7,0,blind-judged,23101,22528,393,165,23495,,context-snapshot-DEFECT
+T6,Grok 4.3,grok CLI (ACP),primary,no,120.7,0,14/14,36211,36096,711,247,36922,,context-snapshot-DEFECT
+T7,Grok 4.3,grok CLI (ACP),primary,no,245.6,0,blind-judged,103819,103168,2907,62,106727,,context-snapshot-DEFECT
+T8,Grok 4.3,grok CLI (ACP),primary,no,85.3,0,blind-judged,57266,57088,1988,40,59254,,context-snapshot-DEFECT
+T1,Grok 4.5,grok CLI (ACP),remote-2core,yes,36.2,0,correct,24081,23936,1805,1016,25886,,context-snapshot-DEFECT
+T2,Grok 4.5,grok CLI (ACP),remote-2core,yes,6.8,0,correct,21834,6016,417,274,22252,,context-snapshot-DEFECT
+T3,Grok 4.5,grok CLI (ACP),remote-2core,yes,173.6,0,blind-judged,125578,123904,5030,318,130609,,context-snapshot-DEFECT
+T4,Grok 4.5,grok CLI (ACP),remote-2core,yes,25.6,0,pass,22984,22656,145,15,23129,,context-snapshot-DEFECT
+T5,Grok 4.5,grok CLI (ACP),remote-2core,yes,7.7,0,blind-judged,13552,12672,156,31,13709,,context-snapshot-DEFECT
+T6,Grok 4.5,grok CLI (ACP),remote-2core,yes,12.9,0,14/14,18585,18176,686,544,19272,,context-snapshot-DEFECT
+T7,Grok 4.5,grok CLI (ACP),remote-2core,yes,158.1,0,blind-judged,133747,132352,4477,220,138225,,context-snapshot-DEFECT
+T8,Grok 4.5,grok CLI (ACP),remote-2core,yes,23.2,0,blind-judged,29705,27776,1010,159,30716,,context-snapshot-DEFECT

@@ -1,0 +1,15 @@
+task,axis,opus_4.8,gpt_5.5,gpt_5.6_sol,grok_4.3,grok_4.5
+T1,math-hard correct (1=yes),1,1,1,1,1
+T2,math-medium correct (1=yes),1,1,1,1,1
+T3,planted bugs caught /21,12,4,6,4,7
+T3,superseded seeds traced with migration history /7,3,0,0,0,0
+T3,superseded seeds over-claimed as live,2,0,0,0,0
+T3,real (unplanted) bugs found /7,1,3,4,0,2
+T3,false positives,0,0,0,0,0
+T4,bug-fix from user report (1=pass),1,1,1,0,1
+T5,enumeration exact 7/7 with 11-file trap defused (1=pass),1,1,1,1,1
+T6,implement-to-spec hidden tests passed /14,14,14,14,14,14
+T7,stale-doc plants caught /5,1,4,5,1,5
+T7,genuine unplanted staleness found (all verified),12,28,83,9,~49
+T7,false positives,0,0,0,0,0
+T8,diff review net correct /7 (5 reject + 2 approve),7,6,6,7,7
