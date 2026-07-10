@@ -31,6 +31,8 @@ Grok exposes no per-turn token split in headless mode, so its leg runs over the 
 
 ![Five models across 8 agentic tasks, three native harnesses: correctness scoreboard plus output-token, API-cost, and wall-time bars](benchmark-table.png)
 
+![What the agentic bill is made of: stacked cost bars (cache traffic vs fresh input vs output) per model, the 68-vs-19-calls loop comparison, and wall-time bars](agentic-bill.png)
+
 ---
 
 ## Results — correctness scoreboard
