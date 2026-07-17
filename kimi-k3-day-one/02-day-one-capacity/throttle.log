@@ -1,0 +1,281 @@
+08:42:03 === kimi_proxy2 (empty-200 fix) start: port=8790 target=moonshotai/kimi-k3 reasoning=max max_retries=10 ===
+08:42:33   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 2.0s
+08:42:55   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 4.5s
+08:43:19   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 9.2s
+08:43:48   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.3s
+08:44:24   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.9s
+08:44:44   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 2.9s
+08:44:44   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 3.3s
+08:45:06   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 4.7s
+08:45:08   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 4.4s
+08:45:10   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 25.8s
+08:45:30   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 8.4s
+08:45:32   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 9.4s
+08:45:57   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 25.2s
+08:45:58   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.9s
+08:46:08   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 2.7s
+08:46:21   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 4.4s
+08:46:25   upstream 429 (attempt 5/10) -> retry in 25.4s
+08:46:36   upstream 429 (attempt 3/10) -> retry in 8.4s
+08:46:42   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 25.5s
+08:46:55   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.4s
+08:47:00   upstream 429 (attempt 6/10) -> retry in 25.8s
+08:47:22   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 26.4s
+08:47:27   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 25.4s
+08:47:35   upstream 429 (attempt 7/10) -> retry in 26.2s
+08:47:58   upstream 429 (attempt 6/10) -> retry in 25.8s
+08:48:11   upstream 429 (attempt 8/10) -> retry in 25.1s
+08:48:12   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 25.8s
+08:48:34   upstream 429 (attempt 7/10) -> retry in 26.1s
+08:48:46   upstream 429 (attempt 9/10) -> retry in 26.4s
+08:48:58   upstream 200-wrapped rate_limit FINAL -> 429 to client
+08:49:10   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 26.5s
+08:49:22   upstream 429 (attempt 10/10) -> retry in 25.3s
+08:49:35   upstream 429 (attempt 1/10) -> retry in 2.6s
+08:49:47   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 25.8s
+08:49:47   upstream 429 (attempt 2/10) -> retry in 4.8s
+08:49:57   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+08:50:02   upstream 429 (attempt 3/10) -> retry in 8.4s
+08:50:20   upstream 429 (attempt 4/10) -> retry in 17.1s
+08:50:23   upstream 429 (attempt 10/10) -> retry in 25.1s
+08:50:35   upstream 429 (attempt 1/10) -> retry in 2.6s
+08:50:47   upstream 429 (attempt 5/10) -> retry in 25.4s
+08:50:48   upstream 429 (attempt 2/10) -> retry in 4.1s
+08:50:58   upstream 200-wrapped rate_limit FINAL -> 429 to client
+08:51:02   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 9.2s
+08:51:22   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 17.2s
+08:51:22   upstream 429 (attempt 6/10) -> retry in 25.5s
+08:51:49   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 26.3s
+08:51:58   upstream 429 (attempt 7/10) -> retry in 25.0s
+08:52:26   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 25.6s
+08:52:32   upstream 429 (attempt 8/10) -> retry in 25.5s
+08:53:02   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 25.6s
+08:53:08   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 25.5s
+08:53:38   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 26.0s
+08:53:43   upstream 429 (attempt 10/10) -> retry in 25.5s
+08:54:14   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 25.8s
+08:54:18   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+08:54:29   upstream 429 (attempt 1/10) -> retry in 3.3s
+08:54:42   upstream 429 (attempt 2/10) -> retry in 4.7s
+08:54:50   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 25.5s
+08:54:57   upstream 429 (attempt 3/10) -> retry in 9.4s
+08:55:16   upstream 429 (attempt 4/10) -> retry in 16.0s
+08:55:25   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+08:55:37   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 3.3s
+08:55:42   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 26.1s
+08:56:00   upstream 404 FINAL: {"error":{"message":"Not Found","code":404}}
+08:56:18   upstream 429 (attempt 6/10) -> retry in 25.9s
+08:56:27   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 2.7s
+08:56:40   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 4.4s
+08:56:54   upstream 429 (attempt 7/10) -> retry in 25.4s
+08:56:55   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 8.3s
+08:57:14   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.2s
+08:57:29   upstream 429 (attempt 8/10) -> retry in 25.3s
+08:57:40   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.9s
+08:58:04   upstream 429 (attempt 9/10) -> retry in 26.1s
+08:58:17   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 25.3s
+08:58:38   upstream 429 (attempt 1/10) -> retry in 2.4s
+08:58:40   upstream 429 (attempt 10/10) -> retry in 26.2s
+08:58:50   upstream 429 (attempt 2/10) -> retry in 5.3s
+08:58:52   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 25.6s
+08:59:05   upstream 429 (attempt 3/10) -> retry in 8.6s
+08:59:16   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+08:59:24   upstream 429 (attempt 4/10) -> retry in 16.6s
+08:59:28   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 26.1s
+08:59:50   upstream 429 (attempt 5/10) -> retry in 26.4s
+09:00:05   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 26.2s
+09:00:26   upstream 429 (attempt 6/10) -> retry in 26.1s
+09:00:37   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 3.3s
+09:00:41   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 25.7s
+09:00:51   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 4.1s
+09:01:02   upstream 429 (attempt 7/10) -> retry in 25.5s
+09:01:05   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 9.0s
+09:01:18   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:01:24   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 17.2s
+09:01:37   upstream 429 (attempt 8/10) -> retry in 26.0s
+09:01:52   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.3s
+09:02:13   upstream 429 (attempt 9/10) -> retry in 26.1s
+09:02:28   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 25.7s
+09:02:49   upstream 429 (attempt 10/10) -> retry in 25.3s
+09:03:04   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 25.1s
+09:03:24   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+09:03:38   upstream 429 (attempt 1/10) -> retry in 3.4s
+09:03:40   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 26.0s
+09:03:51   upstream 429 (attempt 2/10) -> retry in 4.4s
+09:04:06   upstream 429 (attempt 3/10) -> retry in 8.5s
+09:04:16   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 25.8s
+09:04:24   upstream 429 (attempt 4/10) -> retry in 17.1s
+09:04:51   upstream 429 (attempt 5/10) -> retry in 26.4s
+09:04:52   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 25.5s
+09:05:27   upstream 429 (attempt 6/10) -> retry in 26.2s
+09:05:28   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:05:38   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 3.1s
+09:05:52   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 5.0s
+09:06:04   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 26.2s
+09:06:09   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 8.0s
+09:06:28   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.6s
+09:06:40   upstream 429 (attempt 8/10) -> retry in 25.3s
+09:06:55   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.9s
+09:07:15   upstream 429 (attempt 9/10) -> retry in 26.3s
+09:07:31   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 26.1s
+09:07:51   upstream 429 (attempt 10/10) -> retry in 25.2s
+09:08:07   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 26.4s
+09:08:26   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+09:08:44   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 26.3s
+09:08:44   upstream 429 (attempt 1/10) -> retry in 2.4s
+09:08:56   upstream 429 (attempt 2/10) -> retry in 4.8s
+09:09:11   upstream 429 (attempt 3/10) -> retry in 9.2s
+09:09:21   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 25.9s
+09:09:30   upstream 429 (attempt 4/10) -> retry in 16.2s
+09:09:56   upstream 429 (attempt 5/10) -> retry in 25.0s
+09:09:57   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 25.5s
+09:10:30   upstream 429 (attempt 6/10) -> retry in 26.4s
+09:10:33   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:10:40   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 3.5s
+09:10:54   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 4.3s
+09:11:07   upstream 429 (attempt 7/10) -> retry in 25.1s
+09:11:08   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 8.4s
+09:11:27   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.2s
+09:11:41   upstream 429 (attempt 8/10) -> retry in 25.2s
+09:11:54   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.0s
+09:12:17   upstream 429 (attempt 9/10) -> retry in 26.2s
+09:12:29   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 25.1s
+09:12:53   upstream 429 (attempt 10/10) -> retry in 26.2s
+09:13:05   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 26.4s
+09:13:29   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+09:13:42   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 25.2s
+09:13:55   upstream 429 (attempt 1/10) -> retry in 2.6s
+09:14:07   upstream 429 (attempt 2/10) -> retry in 4.2s
+09:14:17   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 25.1s
+09:14:21   upstream 429 (attempt 3/10) -> retry in 8.1s
+09:14:39   upstream 429 (attempt 4/10) -> retry in 16.4s
+09:14:53   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 25.2s
+09:15:05   upstream 429 (attempt 5/10) -> retry in 26.4s
+09:15:29   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:15:42   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 25.9s
+09:15:43   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 2.0s
+09:15:56   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 4.2s
+09:16:11   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 8.6s
+09:16:17   upstream 429 (attempt 7/10) -> retry in 25.9s
+09:16:30   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.8s
+09:16:53   upstream 429 (attempt 8/10) -> retry in 25.6s
+09:16:57   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.2s
+09:17:29   upstream 429 (attempt 9/10) -> retry in 26.0s
+09:17:33   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 26.3s
+09:18:05   upstream 429 (attempt 10/10) -> retry in 25.2s
+09:18:10   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 25.4s
+09:18:40   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+09:18:45   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 25.4s
+09:19:10   upstream 429 (attempt 1/10) -> retry in 2.5s
+09:19:21   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 26.4s
+09:19:22   upstream 429 (attempt 2/10) -> retry in 4.9s
+09:19:37   upstream 429 (attempt 3/10) -> retry in 9.2s
+09:19:56   upstream 429 (attempt 4/10) -> retry in 17.4s
+09:19:58   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 25.2s
+09:20:24   upstream 429 (attempt 5/10) -> retry in 26.4s
+09:20:34   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:20:47   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 3.3s
+09:21:00   upstream 429 (attempt 6/10) -> retry in 25.3s
+09:21:01   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 4.4s
+09:21:16   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 9.2s
+09:21:35   upstream 429 (attempt 7/10) -> retry in 26.0s
+09:21:36   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 17.3s
+09:22:04   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.5s
+09:22:10   upstream 429 (attempt 8/10) -> retry in 25.1s
+09:22:40   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 26.3s
+09:22:45   upstream 429 (attempt 9/10) -> retry in 25.3s
+09:23:16   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 25.4s
+09:23:20   upstream 429 (attempt 10/10) -> retry in 25.9s
+09:23:52   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 26.5s
+09:23:56   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+09:24:12   upstream 429 (attempt 1/10) -> retry in 3.1s
+09:24:25   upstream 429 (attempt 2/10) -> retry in 4.6s
+09:24:30   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 25.5s
+09:24:39   upstream 429 (attempt 3/10) -> retry in 9.4s
+09:24:58   upstream 429 (attempt 4/10) -> retry in 17.1s
+09:25:05   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 25.3s
+09:25:25   upstream 429 (attempt 5/10) -> retry in 26.4s
+09:25:42   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:25:57   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 2.2s
+09:25:59   upstream 429 (attempt 2/10) -> retry in 4.8s
+09:26:02   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 25.9s
+09:26:15   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 9.4s
+09:26:35   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.1s
+09:26:38   upstream 429 (attempt 7/10) -> retry in 25.5s
+09:27:01   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.6s
+09:27:14   upstream 429 (attempt 8/10) -> retry in 25.8s
+09:27:37   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 26.4s
+09:27:49   upstream 429 (attempt 9/10) -> retry in 25.8s
+09:28:14   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 25.9s
+09:28:25   upstream 429 (attempt 10/10) -> retry in 25.2s
+09:28:50   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 26.3s
+09:29:00   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:29:14   upstream 429 (attempt 1/10) -> retry in 2.4s
+09:29:26   upstream 429 (attempt 2/10) -> retry in 4.7s
+09:29:27   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 25.6s
+09:29:41   upstream 429 (attempt 3/10) -> retry in 8.9s
+09:29:59   upstream 429 (attempt 4/10) -> retry in 17.2s
+09:30:03   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 26.5s
+09:30:26   upstream 429 (attempt 5/10) -> retry in 25.2s
+09:30:41   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:31:01   upstream 429 (attempt 6/10) -> retry in 25.9s
+09:31:14   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 3.2s
+09:31:27   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 5.5s
+09:31:37   upstream 429 (attempt 7/10) -> retry in 25.0s
+09:31:44   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 8.4s
+09:32:02   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.2s
+09:32:12   upstream 429 (attempt 8/10) -> retry in 26.0s
+09:32:29   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.5s
+09:32:48   upstream 429 (attempt 9/10) -> retry in 25.8s
+09:33:04   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 26.1s
+09:33:23   upstream 429 (attempt 10/10) -> retry in 25.4s
+09:33:41   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 25.3s
+09:33:58   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+09:34:15   upstream 429 (attempt 1/10) -> retry in 2.3s
+09:34:17   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 25.7s
+09:34:27   upstream 429 (attempt 2/10) -> retry in 5.1s
+09:34:42   upstream 429 (attempt 3/10) -> retry in 8.8s
+09:34:54   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 25.5s
+09:35:01   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.7s
+09:35:28   upstream 429 (attempt 5/10) -> retry in 25.9s
+09:35:29   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 26.5s
+09:36:04   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 26.5s
+09:36:07   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:36:17   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 2.4s
+09:36:30   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 5.0s
+09:36:40   upstream 429 (attempt 7/10) -> retry in 25.1s
+09:36:46   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 9.1s
+09:37:06   upstream 429 (attempt 8/10) -> retry in 25.8s
+09:37:06   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 17.0s
+09:37:34   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 26.3s
+09:37:41   upstream 429 (attempt 9/10) -> retry in 25.2s
+09:38:10   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 25.1s
+09:38:16   upstream 429 (attempt 10/10) -> retry in 25.7s
+09:38:46   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 26.3s
+09:38:52   upstream 429 FINAL: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate l
+09:39:23   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 25.6s
+09:39:59   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 26.5s
+09:40:36   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 25.8s
+09:41:12   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:41:14   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 2.2s
+09:41:27   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 4.7s
+09:41:42   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 8.1s
+09:42:00   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.2s
+09:42:27   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.9s
+09:43:03   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 25.3s
+09:43:39   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 26.2s
+09:44:15   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 25.2s
+09:44:51   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 26.0s
+09:45:27   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 26.3s
+09:46:05   upstream 200-wrapped rate_limit FINAL -> 429 to client
+09:46:49   upstream 200-wrapped rate_limit (attempt 1/10) -> retry in 2.5s
+09:47:02   upstream 200-wrapped rate_limit (attempt 2/10) -> retry in 5.1s
+09:47:18   upstream 200-wrapped rate_limit (attempt 3/10) -> retry in 9.2s
+09:47:38   upstream 200-wrapped rate_limit (attempt 4/10) -> retry in 16.0s
+09:48:05   upstream 200-wrapped rate_limit (attempt 5/10) -> retry in 25.7s
+09:48:40   upstream 200-wrapped rate_limit (attempt 6/10) -> retry in 26.4s
+09:49:17   upstream 200-wrapped rate_limit (attempt 7/10) -> retry in 25.6s
+09:49:54   upstream 200-wrapped rate_limit (attempt 8/10) -> retry in 26.1s
+09:50:30   upstream 200-wrapped rate_limit (attempt 9/10) -> retry in 26.2s
+09:51:07   upstream 200-wrapped rate_limit (attempt 10/10) -> retry in 25.3s
+09:51:43   upstream 200-wrapped rate_limit FINAL -> 429 to client

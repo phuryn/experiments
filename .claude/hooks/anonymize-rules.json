@@ -18,5 +18,10 @@
     "comment": "Fallback: any other path under a user home directory keeps only its tail",
     "pattern": "[A-Za-z]:[\\\\/]+Users[\\\\/]+[^\\\\/\"' ]+(?=[\\\\/])",
     "replace": "<HOME>"
+  },
+  {
+    "comment": "Test-fixture dirs under Temp/ are named after the private app the experiments audit; the path prefix rules above stop at the repo root, so the app name survived downstream. Keep the fixture role, drop the name (wildcarded, so this file never spells the string it removes).",
+    "pattern": "Temp([\\\\/]+)[A-Za-z0-9_.-]+([\\\\/]+)(buggy|baseline|seeded)\\b",
+    "replace": "Temp\\1<APP>\\2\\3"
   }
 ]

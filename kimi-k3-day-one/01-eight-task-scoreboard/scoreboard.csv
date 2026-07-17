@@ -1,0 +1,11 @@
+task,metric,opus_4_8,gpt_5_5,gpt_5_6_sol,grok_4_5,kimi_k3
+T1,math hard (correct),pass,pass,pass,pass,pass
+T2,math medium (correct),pass,pass,pass,pass,pass
+T3,planted bugs named of 21,12,4,6,7,14
+T3,real (unplanted) bugs found of 7,1,3,4,2,1
+T3,false positives,0,0,0,0,2
+T4,bug fix from user report,pass,pass,pass,pass,pass
+T5,codebase enumeration (exact 7-file set),exact,exact,exact,exact,exact
+T6,hidden tests passed of 14,14,14,14,14,14
+T7,stale-doc plants found of 5,1,4,5,5,DNF
+T8,diff review correct of 7,7,6,6,7,7

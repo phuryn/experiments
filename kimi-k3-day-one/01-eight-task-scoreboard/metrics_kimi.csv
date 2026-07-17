@@ -1,0 +1,10 @@
+task,model,engine_label,effort,wall_s,input_tok,cache_read_tok,output_tok,cost_k3_usd,exit,text_chars
+T1,kimi,Kimi K3,high,33.7,27366,0,1093,0.0985,0,1344
+T2,kimi,Kimi K3,high,119.7,27316,0,372,0.0875,0,578
+T3,kimi,Kimi K3,high,2456.1,185574,1820928,25314,0.9364,0,33040
+T4,kimi,Kimi K3,high,536.7,61533,93440,1187,0.2024,0,1668
+T5,kimi,Kimi K3,high,300.9,28783,54528,1241,0.105,0,1942
+T8,kimi,Kimi K3,high,211.9,51959,143104,4678,0.226,0,10994
+T6,kimi,Kimi K3,high,1446.3,61362,780544,22443,0.5207,0,9898
+T7,kimi,Kimi K3,high,266.3,106040,786944,3658,0.373,1,1307
+T7_direct,kimi,Kimi K3 (direct),high,4031.3,43230,56320,672,0.1567,1,599

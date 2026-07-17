@@ -1,0 +1,10 @@
+{
+  "kimi": {
+    "created": true,
+    "passed": 14,
+    "failed": 0,
+    "total": 14,
+    "score": 1.0,
+    "raw_tail": "bun test v1.3.14 (0d9b296a)\n\n 14 pass\n 0 fail\n 24 expect() calls\nRan 14 tests across 1 file. [200.00ms]\n"
+  }
+}
