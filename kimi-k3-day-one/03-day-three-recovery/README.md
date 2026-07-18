@@ -52,4 +52,4 @@ Raw day-3 log slice: [throttle-day3.log](throttle-day3.log). The only upstream a
 - The throttle numbers describe July 16–18, 2026 only. This experiment expires by design — that is its point.
 - If a number here and a post disagree, the data here wins: [@PawelHuryn](https://x.com/PawelHuryn).
 
-**Source post:** the day-three follow-up QT on [the day-one post](https://x.com/i/status/2078039188834783367).
+**Source post:** [the day-three QT](https://x.com/i/status/2078453621398630706), quoting [the day-one post](https://x.com/i/status/2078039188834783367).
