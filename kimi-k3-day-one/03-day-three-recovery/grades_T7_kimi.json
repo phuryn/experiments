@@ -1,0 +1,15 @@
+{
+  "kimi": {
+    "completed": true,
+    "wall_s": 4070.3,
+    "exit": 0,
+    "planted_found": 3,
+    "planted_total": 5,
+    "planted_types_found": ["wrong-table-name", "wrong-default-value", "nonexistent-feature"],
+    "planted_types_missed": ["wrong-function-name", "wrong-route-path"],
+    "extras_reported": 29,
+    "extras_verified_genuine": 29,
+    "false_positives": 0,
+    "verification": "each extra re-checked claim-by-claim against the codebase (does the doc say it; does the code contradict it) by an independent verification pass; per-claim verdicts quote the private repo and are withheld with the raw report"
+  }
+}

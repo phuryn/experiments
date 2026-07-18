@@ -33,7 +33,7 @@ K3 has no agentic CLI of its own, so it borrowed Claude Code's: [`../02-day-one-
 | Stale-docs audit (of 5 planted lies) | 1 | 4 | **5** | **5** | **DNF** |
 | Diff review (of 7 hunks) | **7** | 6 | 6 | **7** | **7** |
 
-Full grid: [scoreboard.csv](scoreboard.csv). K3 per-task wall-clock, tokens and cost: [metrics_kimi.csv](metrics_kimi.csv). The stale-docs DNF is a throttle result, not a wrong answer — see [02-day-one-capacity](../02-day-one-capacity/).
+Full grid: [scoreboard.csv](scoreboard.csv). K3 per-task wall-clock, tokens and cost: [metrics_kimi.csv](metrics_kimi.csv). The stale-docs DNF is a throttle result, not a wrong answer — see [02-day-one-capacity](../02-day-one-capacity/). *(Update, Jul 18: the cell recovered on day 3 and scored 3/5 + 29 verified extras — [03-day-three-recovery](../03-day-three-recovery/). The table above is the day-one snapshot.)*
 
 **Findings:**
 
@@ -46,7 +46,7 @@ Full grid: [scoreboard.csv](scoreboard.csv). K3 per-task wall-clock, tokens and 
 
 - **n=1 per cell.** Directional, not a ranking. The same rig at n=10 (a different model set) showed planted-bug recall is unstable run to run: [../../frontier-vs-open-audit/](../../frontier-vs-open-audit/). Treat single-run task scores accordingly.
 - **Not one harness.** Each model ran in its own native CLI agent; K3 borrowed Claude Code's because it has none. Only K3 and Opus shared a harness. This compares models-in-native-harnesses, not models-in-a-fixed-harness.
-- **The stale-docs cell is missing, not zero.** K3 never finished it across five attempts. Scoring it as 0 would be wrong; see the capacity experiment.
+- **The stale-docs cell is missing, not zero.** K3 never finished it across five attempts on July 16–17. Scoring it as 0 would be wrong; see the capacity experiment. *(Recovered on day 3 — [03-day-three-recovery](../03-day-three-recovery/).)*
 - **K3 ran on launch-day infrastructure** while the other four ran on stable, unthrottled harnesses. That is not an equal test surface, and it is the subject of [02-day-one-capacity](../02-day-one-capacity/).
 - **The four non-K3 columns are not re-runs.** They are lifted verbatim from [five-models-three-harnesses/](../../five-models-three-harnesses/) (July 10, 2026), which is the source of record for this rig's method, per-model characters, and cost accounting. K3 was added July 16–17 against the identical tasks, prompts and answer keys. Grok 4.3 ran in that set and is dropped here.
 - **K3 breaks that set's "zero false positives from any arm" finding.** It is the first arm in this rig to report bugs that were not there, and the first to take planted-bug recall off Opus.

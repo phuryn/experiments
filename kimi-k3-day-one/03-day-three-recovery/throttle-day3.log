@@ -1,0 +1,4 @@
+10:14:58 === kimi_proxy2 (empty-200 fix) start: port=8790 target=moonshotai/kimi-k3 reasoning=max max_retries=10 ===
+10:19:22   upstream 404 FINAL: {"error":{"message":"Not Found","code":404}}
+10:39:09   upstream 404 FINAL: {"error":{"message":"Not Found","code":404}}
+11:11:30   upstream 404 FINAL: {"error":{"message":"Not Found","code":404}}
