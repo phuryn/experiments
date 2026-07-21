@@ -12,10 +12,12 @@ This folder is the receipt for that number, checked against two captures from my
 
 Both prompts were read out of a live Claude Code session's own context — the same way, both times, so the comparison is apples-to-apples:
 
-- **April 2026** — Opus 4.7, VSCode extension, captured 2026-04-20.
-- **July 2026** — Opus 4.8, Claude Code CLI, captured 2026-07-21.
+- **April 2026** — Opus 4.7, captured 2026-04-20.
+- **July 2026** — Opus 4.8, captured 2026-07-21.
 
-Counts are of the **Anthropic-shipped instruction prose only**. Tool schemas, CLAUDE.md / project instructions, and session-specific fields (cwd, env, git status) are excluded on both sides — they're injected separately and would be noise.
+Both from Claude Code on the same Windows machine. (April happened to be the VSCode extension, July the CLI. That does not affect the comparison: the harness-specific sections — VSCode context, env, cwd, git status — are excluded on both sides, so the surface Claude Code ran in is not part of the count.)
+
+Counts are of the **Anthropic-shipped instruction prose only**. Tool schemas, CLAUDE.md / project instructions, and session-specific fields are excluded on both sides — they're injected separately and would be noise.
 
 The July session runs with memory **off** by default (`autoMemoryEnabled: false`), so its base prompt carries no memory section. To measure the memory block fairly, I ran a one-off session with it enabled and had the model report the section verbatim:
 
