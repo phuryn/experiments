@@ -6,12 +6,27 @@ Answer: **just the frontier.** Run each model through Claude Code on the same ma
 
 ## Result
 
-| Model | Base prompt (words) | Version |
-|---|---|---|
-| Sonnet 5 | **2,094** | OLD / verbose — every "don't" rule (`# Doing tasks`, `# Tone and style`) |
-| Haiku 4.5 | **2,094** | OLD / verbose — **byte-identical to Sonnet 5** |
-| Fable 5 | 901 | NEW / lean (`# Harness`) |
-| Opus 4.8 | 383 | NEW / lean (`# Harness`) |
+| Model | Base prompt (words) | Version | Captured |
+|---|---|---|---|
+| Opus 4.7 (Apr 2026) | 1,918 | OLD / verbose | transcript |
+| Sonnet 4.6 (Apr 2026) | 1,918 | OLD / verbose — identical to Opus 4.7 | transcript |
+| Sonnet 5 (Jul 2026) | **2,094** | OLD / verbose — every "don't" rule (`# Doing tasks`, `# Tone and style`) | proxy |
+| Haiku 4.5 (Jul 2026) | **2,094** | OLD / verbose — **byte-identical to Sonnet 5** | proxy |
+| Fable 5 (Jul 2026) | 901 | NEW / lean (`# Harness`) | proxy |
+| Opus 4.8 (Jul 2026) | 383 | NEW / lean (`# Harness`) | proxy |
+
+*April numbers are transcripts (ex-memory base prose); July numbers are proxy-captured (exact). The two capture methods aren't word-for-word comparable, but the **version** column — verbose vs lean — is method-independent, and that's the real split.*
+
+### Diffs
+
+| Comparison | What it shows |
+|---|---|
+| [Opus 4.7 → Opus 4.8](diff-opus-4-7-to-4-8.txt) | the frontier shrink over time: verbose → lean |
+| [Opus 4.7 → Fable 5](diff-opus-4-7-to-fable-5.txt) | old top model → new frontier: verbose → lean |
+| [Sonnet 4.6 → Sonnet 5](diff-sonnet-4-6-to-5.txt) | the workhorse prompt **grew** (1,918 → 2,094) and stayed verbose — it did NOT shrink |
+| [Opus 4.8 vs Fable 5](diff-opus-4-8-to-fable-5.txt) | the two current frontier prompts, both lean (Fable carries an extra Mythos/identity block) |
+| [Opus 4.8 vs Sonnet 5](diff-opus-4-8-vs-sonnet-5.txt) | the current tier split: lean vs verbose, same day |
+| [Haiku 4.5 vs Sonnet 5](diff-haiku-4-5-vs-sonnet-5.txt) | identical (the two verbose models run the same prompt) |
 
 Two findings fall out:
 
@@ -42,6 +57,6 @@ Two method notes worth recording:
 
 ## Files
 
-- `sonnet-5.txt`, `haiku-4-5.txt`, `fable-5.txt`, `opus-4-8.txt` — base prose per model (proxy-captured, headless, stripped at `# Environment`).
-- `diff-opus-4-8-vs-sonnet-5.txt` — the tier split: lean vs verbose, same method.
-- `diff-haiku-4-5-vs-sonnet-5.txt` — empty (the two verbose prompts are identical).
+- `opus-4-8.txt`, `fable-5.txt`, `sonnet-5.txt`, `haiku-4-5.txt` — July base prose per model (proxy-captured, headless, stripped at `# Environment`).
+- `april-opus-4-7.txt`, `april-sonnet-4-6.txt` — the April base prose (transcribed; the only surviving record of the old prompts).
+- `diff-*.txt` — the six comparisons in the Diffs table above.
