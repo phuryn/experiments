@@ -1,0 +1,5 @@
+# Haiku 4.5 vs Sonnet 5 — base prose, proxy-captured.
+# Result: byte-identical. The two models run the same 2094-word verbose prompt;
+# the only per-model bytes (model ID, knowledge cutoff) live in the excluded # Environment section.
+
+(no differences)

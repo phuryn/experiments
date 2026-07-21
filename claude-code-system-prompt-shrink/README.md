@@ -45,6 +45,19 @@ Words of Anthropic-shipped instruction prose, all from the same two captures.
 
 The pattern is consistent top to bottom: say it once, positively, no examples. That's the real change — not one big cut, the same edit applied everywhere.
 
+## The bigger finding: the shrink is frontier-tier only (added 2026-07-22)
+
+The shrink above isn't uniform across Claude models. Captured every current model through Claude Code on the same machine, same day (via the API request, not self-report), and there are exactly **two** base prompts — split by capability tier:
+
+| Model | Base prompt (words) | Version |
+|---|---|---|
+| Sonnet 5 | **2,094** | OLD / verbose — every "don't" rule intact |
+| Haiku 4.5 | **2,094** | OLD / verbose — byte-identical to Sonnet 5 |
+| Fable 5 | 901 | NEW / lean |
+| Opus 4.8 | 383 | NEW / lean |
+
+Opus 4.8's base prompt is **~82% smaller than the one Sonnet 5 and Haiku 4.5 still run.** The lean prompt is frontier-only (Opus 4.8, Fable 5); the workhorse models keep the full rulebook. Temporally: Opus shrank (April 4.7 verbose → July 4.8 lean); Sonnet did not (April 4.6 verbose → Sonnet 5 still verbose). So "smarter models need fewer instructions" is a live tier split, not a one-time cut. Full data, diffs, and method in [`cross-model/`](cross-model/).
+
 ## Files
 
 - `01-system-prompt-april-2026.md` — the April base prompt, as captured (memory inline).
@@ -53,6 +66,7 @@ The pattern is consistent top to bottom: say it once, positively, no examples. T
 - `04-memory-block-july-2026.md` — the July `# Memory` section, self-reported with memory enabled (316 words).
 - `05-diff-system-prompt-april-to-july.diff` — unified diff, 01 → 03.
 - `06-diff-memory-april-to-july.diff` — unified diff, 02 → 04.
+- [`cross-model/`](cross-model/) — same-day capture of Opus 4.8, Fable 5, Sonnet 5, Haiku 4.5, showing the lean prompt is frontier-only (proxy-captured, base prose, with diffs).
 
 ## Caveats
 
