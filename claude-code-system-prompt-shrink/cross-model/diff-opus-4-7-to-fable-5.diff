@@ -1,10 +1,7 @@
-# Opus 4.7 (Apr) -> Fable 5 (Jul): old top model vs new frontier (1,918 -> 901). Old side = April transcript, new side = headless proxy capture; opening-line + minor formatting diffs are capture-mode artifacts, not prompt changes.
-# verbose -> lean.
-
-diff --git a/april-opus-4-7 b/fable-5
+diff --git a/april-opus-4-7.txt b/fable-5.txt
 index 41b41152..d47fa084 100644
---- a/april-opus-4-7
-+++ b/fable-5
+--- a/april-opus-4-7.txt
++++ b/fable-5.txt
 @@ -1,70 +1,36 @@
 -You are Claude Code, Anthropic's official CLI for Claude, running within the Claude Agent SDK.
 -You are an interactive agent that helps users with software engineering tasks. Use the instructions below and the tools available to you to assist the user.

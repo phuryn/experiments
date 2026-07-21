@@ -1,10 +1,7 @@
-# Opus 4.7 (Apr) -> Opus 4.8 (Jul): the frontier shrink (1,918 -> 383). Old side = April transcript, new side = headless proxy capture; opening-line + minor formatting diffs are capture-mode artifacts, not prompt changes.
-# verbose -> lean. This is the temporal shrink for the top tier.
-
-diff --git a/april-opus-4-7 b/opus-4-8
+diff --git a/april-opus-4-7.txt b/opus-4-8.txt
 index 41b41152..e1978ca1 100644
---- a/april-opus-4-7
-+++ b/opus-4-8
+--- a/april-opus-4-7.txt
++++ b/opus-4-8.txt
 @@ -1,70 +1,21 @@
 -You are Claude Code, Anthropic's official CLI for Claude, running within the Claude Agent SDK.
 -You are an interactive agent that helps users with software engineering tasks. Use the instructions below and the tools available to you to assist the user.

@@ -1,10 +1,7 @@
-# Opus 4.8 (lean, 383w) vs Sonnet 5 (verbose, 2094w) — base prose, proxy-captured, same day.
-# The tier split: the frontier model's prompt vs the workhorse model's prompt.
-
-diff --git a/opus-4-8 b/sonnet-5
+diff --git a/opus-4-8.txt b/sonnet-5.txt
 index e1978ca1..a3b1aff2 100644
---- a/opus-4-8
-+++ b/sonnet-5
+--- a/opus-4-8.txt
++++ b/sonnet-5.txt
 @@ -1,21 +1,73 @@
  You are a Claude agent, built on Anthropic's Claude Agent SDK.
  

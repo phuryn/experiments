@@ -1,10 +1,7 @@
-# Sonnet 4.6 (Apr) -> Sonnet 5 (Jul): both verbose. Old side = April transcript, new side = headless proxy capture; opening-line + minor formatting diffs are capture-mode artifacts, not prompt changes.
-# Shows the workhorse/verbose prompt EVOLVING (1,918 -> 2,094 words) but NOT shrinking.
-
-diff --git a/april-sonnet-4-6 b/sonnet-5
+diff --git a/april-sonnet-4-6.txt b/sonnet-5.txt
 index 41b41152..a3b1aff2 100644
---- a/april-sonnet-4-6
-+++ b/sonnet-5
+--- a/april-sonnet-4-6.txt
++++ b/sonnet-5.txt
 @@ -1,4 +1,5 @@
 -You are Claude Code, Anthropic's official CLI for Claude, running within the Claude Agent SDK.
 +You are a Claude agent, built on Anthropic's Claude Agent SDK.

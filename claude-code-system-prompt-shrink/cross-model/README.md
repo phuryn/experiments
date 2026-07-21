@@ -19,14 +19,16 @@ Answer: **just the frontier.** Run each model through Claude Code on the same ma
 
 ### Diffs
 
+Unified diffs of the base prose. On the temporal ones (old → new), the *old* side is an April transcript and the *new* side a headless proxy capture, so the opening-line and minor formatting differences are capture-mode artifacts, not prompt changes; the substantive change is verbose vs lean.
+
 | Comparison | What it shows |
 |---|---|
-| [Opus 4.7 → Opus 4.8](diff-opus-4-7-to-4-8.txt) | the frontier shrink over time: verbose → lean |
-| [Opus 4.7 → Fable 5](diff-opus-4-7-to-fable-5.txt) | old top model → new frontier: verbose → lean |
-| [Sonnet 4.6 → Sonnet 5](diff-sonnet-4-6-to-5.txt) | the workhorse prompt **grew** (1,918 → 2,094) and stayed verbose — it did NOT shrink |
-| [Opus 4.8 vs Fable 5](diff-opus-4-8-to-fable-5.txt) | the two current frontier prompts, both lean (Fable carries an extra Mythos/identity block) |
-| [Opus 4.8 vs Sonnet 5](diff-opus-4-8-vs-sonnet-5.txt) | the current tier split: lean vs verbose, same day |
-| [Haiku 4.5 vs Sonnet 5](diff-haiku-4-5-vs-sonnet-5.txt) | identical (the two verbose models run the same prompt) |
+| [Opus 4.7 → Opus 4.8](diff-opus-4-7-to-4-8.diff) | the frontier shrink over time: verbose → lean |
+| [Opus 4.7 → Fable 5](diff-opus-4-7-to-fable-5.diff) | old top model → new frontier: verbose → lean |
+| [Sonnet 4.6 → Sonnet 5](diff-sonnet-4-6-to-5.diff) | the workhorse prompt **grew** (1,918 → 2,094) and stayed verbose — it did NOT shrink |
+| [Opus 4.8 vs Fable 5](diff-opus-4-8-to-fable-5.diff) | the two current frontier prompts, both lean (Fable carries an extra Mythos/identity block) |
+| [Opus 4.8 vs Sonnet 5](diff-opus-4-8-vs-sonnet-5.diff) | the current tier split: lean vs verbose, same day |
+| Haiku 4.5 vs Sonnet 5 | identical — no diff; compare [`haiku-4-5.txt`](haiku-4-5.txt) and [`sonnet-5.txt`](sonnet-5.txt) directly |
 
 Two findings fall out:
 
@@ -59,4 +61,4 @@ Two method notes worth recording:
 
 - `opus-4-8.txt`, `fable-5.txt`, `sonnet-5.txt`, `haiku-4-5.txt` — July base prose per model (proxy-captured, headless, stripped at `# Environment`).
 - `april-opus-4-7.txt`, `april-sonnet-4-6.txt` — the April base prose (transcribed; the only surviving record of the old prompts).
-- `diff-*.txt` — the six comparisons in the Diffs table above.
+- `diff-*.diff` — the five comparisons in the Diffs table above (Haiku vs Sonnet omitted — identical, no diff).

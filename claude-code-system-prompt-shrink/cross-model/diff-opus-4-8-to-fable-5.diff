@@ -1,10 +1,7 @@
-# Opus 4.8 vs Fable 5: two current frontier prompts (383 vs 901), both proxy, same method.
-# Both lean; Fable carries an extra Mythos/identity block + a longer communication section.
-
-diff --git a/opus-4-8 b/fable-5
+diff --git a/opus-4-8.txt b/fable-5.txt
 index e1978ca1..d47fa084 100644
---- a/opus-4-8
-+++ b/fable-5
+--- a/opus-4-8.txt
++++ b/fable-5.txt
 @@ -7,15 +7,30 @@ IMPORTANT: Assist with authorized security testing, defensive security, CTF chal
  # Harness
   - Text you output outside of tool use is displayed to the user as Github-flavored markdown in a terminal.
