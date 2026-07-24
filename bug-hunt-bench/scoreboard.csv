@@ -1,0 +1,7 @@
+model,harness,fixed_of_45,partial,claimed_only,genuine_extras,false_positive_fixes,wall_min,cost_usd_list_equiv
+GPT-5.6 Sol,Codex CLI,13,1,2,9,0,21.9,10.76
+Opus 5,Claude Code,11,0,0,1,0,17.4,15.89
+Fable 5,Claude Code,9,0,1,2,0,14.9,36.42
+Grok 4.5,Grok Build CLI (ACP),5,0,0,2,0,16.5,5.82
+Kimi K3,Claude Code / OpenRouter,4,0,1,0,0,62.3,9.42
+Opus 4.8,Claude Code,2,0,0,0,0,17.4,10.67

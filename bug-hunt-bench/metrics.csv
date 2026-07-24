@@ -1,0 +1,7 @@
+arm,engine,effort,wall_s,input_tok,cache_write,cache_read,output_tok,reasoning_tok,total_tok,cost_est_usd,exit,notes
+fable5,Fable 5,high,891.3,173,491798,27588849,53606,,28134426,36.4184,0,model=claude-fable-5
+grok45,Grok 4.5,high,990.4,191839,,191744,423,15,192263,,0,SNAPSHOT-not-bill;reconstruct-from-sessions;slug=grok-4.5
+opus48,Opus 4.8,high,1046.7,154,262013,14976043,61633,,15299843,10.6672,0,model=claude-opus-4-8
+gpt56,GPT-5.6 Sol,high,1316.6,16793471,,16461568,29074,8515,16822545,10.7625,0,auth=chatgpt-account;slug=gpt-5.6-sol
+kimi,Kimi K3,high,3738.8,330381,0,24153344,79177,,24562902,9.4248,0,via=kimi_proxy2:8789;openrouter=moonshotai/kimi-k3
+opus5,Opus 5,high,1042.1,230,312074,24928312,58885,,25299501,15.8879,0,model=claude-opus-5
